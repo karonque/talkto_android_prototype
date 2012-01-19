@@ -12,7 +12,11 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dfe57ec-af7d-4c40-a4eb-821548c2b961" name="Default" comment="" />
+    <list default="true" id="2dfe57ec-af7d-4c40-a4eb-821548c2b961" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/layout/start.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/to/talk/prototype/R.java" afterPath="$PROJECT_DIR$/gen/to/talk/prototype/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/StartActivity.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/StartActivity.java" />
+    </list>
     <ignored path="talkto_android_prototype.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -72,7 +76,7 @@
       <file leaf-file-name="StartActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/StartActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="24" selection-start="131" selection-end="131" vertical-scroll-proportion="0.30456853">
+            <state line="17" column="26" selection-start="349" selection-end="349" vertical-scroll-proportion="0.6472081">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,6 +103,7 @@
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/MyActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/roster.xml" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/StartActivity.java" />
       </list>
     </option>
@@ -496,7 +501,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/start.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="35" selection-start="361" selection-end="361" vertical-scroll-proportion="0.35433072">
           <folding />
@@ -505,7 +510,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/StartActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="131" selection-end="131" vertical-scroll-proportion="0.30456853">
+        <state line="17" column="26" selection-start="349" selection-end="349" vertical-scroll-proportion="0.6472081">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
