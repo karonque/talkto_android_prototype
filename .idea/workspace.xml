@@ -13,167 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dfe57ec-af7d-4c40-a4eb-821548c2b961" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/accounts_network_error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/accounts_noaccount.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/accounts_offline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/alert.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/app_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/avatar_frame.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/avatar_frame_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_dropdown_normal.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_dropdown_pressed.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_green.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_green_pressed.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_grey_highlight.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_grey_normal.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_grey_pressed.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_radio_off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_radio_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_radio_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/chat_requests_empty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/chats_empty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/checkbox_blank.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/checkbox_marked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/coming_soon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/contacts_empty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/contacts_invalid_cred.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/contacts_noaccount.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/dialog_alert.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/dialog_error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/dialog_remove.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/emo_angel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/emo_angry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/emo_blush.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/emo_confusion.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/emo_cool.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/emo_cry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/emo_erm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/emo_gasp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/emo_grin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/emo_kiss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/emo_money.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/emo_sad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/emo_scared.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/emo_smiley.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/emo_tongue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/emo_winking.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/emo_wub.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/facebook_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/fbconnect.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/fbconnect_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/gtalk_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/ic_pulltorefresh_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/ic_tab_accounts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/ic_tab_accounts_active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/ic_tab_chats.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/ic_tab_chats_active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/ic_tab_contacts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/ic_tab_contacts_active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/ic_tab_groups.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/ic_tab_groups_active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/ic_tab_more.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/ic_tab_more_active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/indichat_input_bg.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/input_box.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/input_box_pressed.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/list_bg.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/list_bg_pressed.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/list_bg_pressed_sm.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/list_bg_sm.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/logo_aboutscreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/logo_loginscreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/logo_pingpong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/menu_acceptall.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/menu_acceptall_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/menu_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/menu_addcontact.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/menu_bg_normal.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/menu_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/menu_edit_account.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/menu_pendingrequest.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/menu_rejectall.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/menu_rejectall_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/menu_remove.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/menu_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/menu_settings_about.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/menu_settings_feedback.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/message_status_delivered.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/message_status_error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/message_status_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/message_status_read_acknowledged.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/message_status_server.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/message_status_waiting.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/more_about.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/more_help.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/more_settings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/network_error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/notfound_empty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/notification_error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/notification_message.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/notification_message_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/notification_request.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/notification_update.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/overlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/permanent_notification.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/presence_available.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/presence_away.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/presence_busy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/presence_offline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/presence_unknown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/sending_progressbar_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/sending_progressbar_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/separator.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/separator_tab.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/service_facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/service_facebook_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/service_gtalk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/service_gtalk_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/service_jabber_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/service_pingpong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/service_pingpong_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/startup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tab_active.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tab_first_active.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tab_last_active.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tab_normal.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tab_pressed.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/unread_badge.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/window_title.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_dropdown.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_facebook_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_green_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_grey_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_radio.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/chatpane_message_background_other.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/chatpane_message_background_self.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/chatpane_message_pressed_other.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/chatpane_message_pressed_self.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/chkbox_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/edittext_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/list_item_account_status_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/list_item_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/menu_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/progress_sending_message.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/pull_to_refresh_header_background.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/selector_message_background_other.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/selector_messge_background_self.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tab_accounts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tab_bg_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tab_chats.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tab_first_bg_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tab_groups.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tab_last_bg_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tab_more.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tab_roster.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/to/talk/prototype/R.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/to/talk/prototype/StartActivity.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
     </list>
     <ignored path="talkto_android_prototype.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -234,7 +74,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="25" selection-start="111" selection-end="111" vertical-scroll-proportion="0.175">
+            <state line="17" column="24" selection-start="348" selection-end="348" vertical-scroll-proportion="0.425">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -328,8 +168,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -406,20 +246,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="talkto_android_prototype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="talkto_android_prototype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="SDKs" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="MemberChooser.sorted" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RunManager" selected="Android Application.talkto-ics">
@@ -578,7 +436,6 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.6709265" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -593,6 +450,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.6709265" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -665,9 +523,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/accounts_item.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="2060" selection-end="2060" vertical-scroll-proportion="0.0">
+        <state line="13" column="34" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -679,16 +537,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/accounts_item.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+        <state line="54" column="0" selection-start="2060" selection-end="2060" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="111" selection-end="111" vertical-scroll-proportion="0.175">
+        <state line="17" column="24" selection-start="348" selection-end="348" vertical-scroll-proportion="0.425">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
