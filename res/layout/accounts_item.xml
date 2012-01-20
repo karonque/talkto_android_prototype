@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="@drawable/list_item_selector"
+                android:layout_width="fill_parent"
+                android:focusable="true"
+                android:layout_height="64dip"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="center_vertical">
+
+    <ImageView android:id="@+id/account_avataar"
+               android:src="@drawable/icon"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+               android:paddingLeft="10dip"
+               android:paddingRight="12dip"/>
+
+    <TextView
+            android:id="@+id/account_name"
+            style="@style/list_item"
+            android:layout_width="wrap_content"
+            android:layout_height="25dip"
+            android:paddingRight="30dp"
+            android:layout_toRightOf="@id/account_avataar"
+            android:gravity="bottom"/>
+    <TextView
+            android:id="@+id/account_status"
+            style="@style/list_item_subtext"
+            android:layout_width="wrap_content"
+            android:layout_height="25dip"
+            android:paddingRight="30dp"
+            android:layout_below="@id/account_name"
+            android:layout_alignLeft="@id/account_name"
+            android:gravity="center_vertical"/>
+
+    <ImageView
+            android:id="@+id/account_satate_icon"
+            android:src="@drawable/presence_offline"
+            android:visibility="gone"
+            style="@style/accountTabIcon"/>
+
+
+    <LinearLayout style="@style/accountTabIcon">
+        <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:id="@+id/account_progress_bar"
+                android:visibility="gone"
+                android:indeterminate="true" />
+    </LinearLayout>
+</RelativeLayout>
+
