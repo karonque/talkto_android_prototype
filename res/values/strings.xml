@@ -1,4 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">talkto_android_prototype</string>
+    <string name="app_name">Talk.to</string>
+
+    <string name="service_pingpong">Pingpong</string>
+    <string name="service_gtalk">Google Talk</string>
+    <string name="service_fb">Facebook</string>
+
+    <string name="check_for_update">Check for update</string>
+    <string name="no_update_available">No update available</string>
+    <string name="update_available">Update Available!</string>
+    <string name="download">Download</string>
+
+    <string name="local_service_started">Talk.to is running</string>
+    <string name="local_service_stopped">Talk.to has stopped </string>
+    <string name="local_service_label">Talk.to</string>
+    <string name="local_service_connected">Client connected</string>
+    <string name="local_service_disconnected">Client disconnected</string>
+    <string name="alert_dialog_wrong_password_title">Invalid Credentials</string>
+    <string name="alert_dialog_connection_error_title">Can\'t connect to the server</string>
+    <string name="alert_dialog_duplicate_account">This account is already configured.</string>
+    <string name="alert_dialog_wrong_password_msg">The username or password is incorrect. Please try again.
+    </string>
+    <string name="alert_dialog_connection_error_msg">Cannot connect to the server right now.</string>
+    <string name="alert_dialog_remove_account_msg">This will remove</string>
+    <string name="alert_dialog_remove_account_title">Remove Account</string>
+    <string name="alert_dialog_close">Close</string>
+    <string name="alert_dialog_remove_rosterentry"> This will remove this user. Are you sure? </string>
+    <string name="dialog_remove">Remove</string>
+    <string name="dialog_block">Block</string>
+    <string name="dialog_save">Save</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="prompt_accounts">Accounts</string>
+    <string name="prompt_country">Country</string>
+    <string name="email_field">Email</string>
+    <string name="password_field">Password</string>
+    <string name="edit_password_field">(unchanged)</string>
+    <string name="empty_field">* Email/Password can not be empty</string>
+    <string name="email_field_error">* Invalid Email address</string>
+    <string name="no_chats">No current chats</string>
+
+    <string name="crash_toast_text">Sorry! Something bad happened. A report has been sent and it will be fixed soon.</string>
+    <string name="crash_notif_ticker_text">Unexpected Error, please send a report</string>
+    <string name="crash_notif_title">Talk.to has crashed</string>
+    <string name="crash_notif_text">Please click here to help fix the issue</string>
+    <string name="crash_dialog_text">An unexpected error occurred forcing the application to stop.
+        Please help us fix this by sending us error data, all you have to do is click OK.</string>
+    <string name="crash_dialog_title">Sorry!</string>
+    <string name="crash_dialog_ok_toast">Thanks for helping in making Talk.to better!</string>
+    <string name="crash_dialog_comment_prompt">You might add your comments about the problem below :</string>
+    <string name="empty_list_requests">No pending buddy requests</string>
+    <string name="toast_contact_added">Successfully sent subscription request!</string>
+    <string name="toast_all_requests_approved">All pending requests approved!</string>
+    <string name="toast_all_requests_rejected">All pending request ignored</string>
+    <string name="header_all_accounts">All Accounts</string>
+    <string name="stub_network_alert">Lost connectivity. Messages will be sent when online.</string>
+    <string name="network_unavailable_message">Network currently unavailable. Will connect automatically when available</string>
+    <string name="clearall_notification_id">pw.chat.mobile.service.notifier.cleanall</string>
+    <string name="signup_text"><a href="http://m.talk.to/signup">Don\'t have a Pingpong account ?</a> </string>
+    <string name="pending_status">Pending Approval</string>
+
+    <string name="allAccounts">All Accounts</string>
+    <string name="no_accounts_configured">No Accounts configured</string>
+    <string name="setStatus">Set status</string>
+    <string name="accountStatus_Save">Save</string>
+    <string name="accountStatus_status_hint">Enter Message</string>
+    <string name="accountStatus_custom_message">Custom Message&#8230;</string>
+    <string name="accountStatus_Offline">Offline</string>
+    <string name="accountStatus_Available">Available</string>
+    <string name="accountStatusOnline">Online</string>
+    <string name="accountStatus_Busy">Busy</string>
+    <string name="accountStatus_Invisible">Invisible</string>
+    <string name="accountStatus_GoInvisible">Go invisible</string>
+    <string name="accountStatus_ClearMessage">Clear custom messages</string>
+    <string name="accountStatus_TotalConnected">connected</string>
+    <string name="accountStatus_TotalOffline">offline</string>
+
+    <string name="userAction_Login">Login</string>
+    <string name="userAction_CancelLogin">Cancel Login</string>
+    <string name="userAction_RemoveAccount">Remove Account</string>
+    <string name="userAction_Logout">Logout</string>
+    <string name="userAction_RetryConnection">Reconnect</string>
+    <string name="userAction_EditAccount">Edit Account</string>
+    <string name="userAction_RetryLogin">Reconnect</string>
+
+    <string name="accountStateConnecting">Connecting&#8230;</string>
+    <string name="accountStateInvalidCred">Invalid Credentials</string>
+    <string name="accountStateOffline">Offline</string>
+    <string name="accountStateOnline">Online</string>
+    <string name="accountStateConnectionError">Connection Error</string>
+    <string name="accountStateDisconnected">Disconnected</string>
+    <string name="accountStateReconnecting">Reconnecting&#8230;</string>
+    <string name="accountStateLoggingOut">Logging out&#8230;</string>
+    <string name="accountStateInvisible">Invisible</string>
+    <string name="accountStateNoNetwork">No network</string>
+
+    <string name="menu_header_buddy_request">Contact Request</string>
+
+    <string name="fb_login_screen_msg">To start chatting, you need to add your Facebook account to Talk.to</string>
+    <string name="conversation_context_menu_header">Message</string>
+
+    <string name="pull_to_refresh_pull_label">Pull to fetch history&#8230;</string>
+    <string name="pull_to_refresh_release_label">Release to fetch history&#8230;</string>
+    <string name="pull_to_refresh_refreshing_label">Fetching history&#8230;</string>
+    <string name="pull_to_refresh_tap_label"></string>
+
+    <string name="contact_status_pendingApproval">Pending Approval</string>
+    <string name="contact_status_online">Online</string>
+    <string name="contact_status_offline">Offline</string>
+    <string name="contact_status_busy">Busy</string>
+    <string name="contact_status_away">Away</string>
+    <string name="contact_status_unknown">Presence is unknown</string>
+    <string name="chatState_isTyping">is typing&#8230;</string>
+
+    <string name="ProgressBar_Loading">Loading&#8230;</string>
+    <string name="ProgressBar_LoadingContacts">Loading contacts&#8230;</string>
+    <string name="ProgressBar_LoggingOut">Logging out&#8230;</string>
+    <string name="ProgressBar_Connecting">Connecting&#8230;</string>
+
+    <string name="dialog_offline_message">Account is offline. Login to proceed?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="addContact_addTo">Add To:</string>
+    <string name="addContact">Add Contact</string>
+    <string name="addAccount">Add Account</string>
+
+    <string name="ChatPane_Send">Send</string>
+    <string name="login_showPassword">Show Password</string>
+
+    <string name="more_feedback">Feedback &amp; Support</string>
+    <string name="more_aboutTalkTo">About Talk.To</string>
+
+    <string name="profile_email">Email</string>
+    <string name="profile_talkToProfile">Talk.to Profile</string>
+    <string name="profile_service">Service</string>
+    <string name="profile_phone">Phone</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_nickname">Nickname</string>
+    <string name="profile_folder">Folder</string>
+    <string name="profile_save">Save</string>
+    <string name="profile_location">Location</string>
+    <string name="profile_city">City</string>
+    <string name="profile_first_name">First Name</string>
+    <string name="profile_last_name">Last Name</string>
+    <string name="profile_selectFolders">Select Folders</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="toast_profile_usbNotMounted">USB storage not mounted</string>
+
+    <string name="goOnline">Go Online</string>
+    <string name="goToAccounts">Go to Accounts</string>
+
+    <string name="menu_about_sendDebugLog">Send Debug Logs</string>
+
+    <string name="menu_avatar_change">Change</string>
+    <string name="menu_avatar_remove">Remove</string>
+
+    <string name="menu_buddy_request_acceptAll">Accept All</string>
+    <string name="menu_buddy_request_acceptRequest">Accept Request</string>
+    <string name="menu_buddy_request_ignoreAll">Ignore All</string>
+    <string name="menu_buddy_request_ignoreRequest">Ignore Request</string>
+
+    <string name="menu_endChat">End Chat</string>
+    <string name="menu_markRead">Mark Read</string>
+
+    <string name="menu_chatPane_viewProfile">View Profile</string>
+    <string name="menu_chatPane_copy">Copy</string>
+    <string name="menu_chatPane_retry">Retry</string>
+    <string name="menu_chatPane_delete">Delete</string>
+
+    <string name="menu_roster_startChat">Start Chat</string>
+    <string name="menu_roster_removeContact">Remove Contact</string>
+    <string name="menu_roster_viewProfile">View Profile</string>
+
+    <string name="menu_account_remove">Remove</string>
+
+    <string name="menu_tab_chats_closeAllChats">Close all chats</string>
+    <string name="menu_tab_contacts_search">Search</string>
+    <string name="menu_tab_contacts_pendingInvites">Pending Invites</string>
+
+    <string name="toast_requestFrom">Request from</string>
+    <string name="toast_approved">approved!</string>
+    <string name="toast_ignored">ignored.</string>
+
+    <string name="me">Me</string>
+
+    <string name="tab_title_accounts">Accounts</string>
+    <string name="tab_title_chats">Chats</string>
+    <string name="tab_title_contacts">Contacts</string>
+    <string name="tab_title_more">More</string>
+
+    <string name="toast_friendRequest">You have a friend request from</string>
+
+    <string name="default_status_message">Using Talk.to on Android</string>
+    <string name="notifier_unread_Title">%1$d unread chats</string>
+    <string name="notifier_ongoing">Talk.to Application is running</string>
+    <string name="notifier_unread_Body_two">%1$s and %2$s</string>
+    <string name="notifier_unread_Body_more">%1$s and %2$d others</string>
+    <string name="notifier_friendRequest_Title">Friend Request</string>
+    <string name="notifier_FriendRequest_TickerText">New friend requests.</string>
+    <string name="notifier_friendRequest_Body">%1$s wants to add you on %2$s</string>
+    <string name="notifier_friendshipApproval_Title">Friendship approval</string>
+    <string name="notifier_friendshipApproval_TickerText">%1$s: friendship approved.</string>
+    <string name="notifier_friendshipApproval_Body">%1$s has added you on %2$s</string>
+    <string name="notifier_updateAvailable_Title">Talk.to update available</string>
+    <string name="notifier_updateAvailable_TickerText">Update available for Talk.to</string>
+    <string name="notifier_updateAvailable_Body">Click to update</string>
+    <string name="notifier_failedMessage_Title">You have failed messages</string>
+    <string name="notifier_failedMessage_Body">%1$s and %2$d others</string>
+
+    <string name="showPassword">Show Password</string>
+    <string name="emailAddressOfContact">Email Address of the contact</string>
+    <string name="typeToCompose">Type to compose</string>
+    <string name="searchContacts">Search contacts</string>
 </resources>
