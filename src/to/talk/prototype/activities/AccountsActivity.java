@@ -20,6 +20,6 @@ public class AccountsActivity extends Activity
     private void addItemOnSpinner()
     {
         spinner1=(Spinner)findViewById(R.id.spinner1);
-        spinner1.se
+        //spinner1.se
     }
 }
