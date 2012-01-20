@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="rectangle">
+    <gradient
+        android:startColor="@color/chatpane_message_background_other_pressed_start"
+        android:endColor="@color/chatpane_message_background_other_pressed_end"
+        android:type="linear"
+        android:angle="270"
+     />
+</shape>
