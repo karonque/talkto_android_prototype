@@ -1,0 +1,122 @@
+<resources>
+    <style name="titleText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/title_text_shadow</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.1</item>
+        <item name="android:textColor">@color/title</item>
+    </style>
+    <style name="titleBackground">
+        <item name="android:background">@drawable/window_title</item>
+    </style>
+    <style name="checkbox">
+        <item name="android:widgetLayout">@layout/preference_widget_checkbox</item>
+    </style>
+    <style name="editTextStyle">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/edittext_selector</item>
+        <item name="android:textColor">@color/edit_text_normal</item>
+        <item name="android:textColorHint">@color/edit_text_hint</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="btn_grey">
+        <item name="android:background">@drawable/btn_grey_selector</item>
+        <item name="android:shadowColor">@color/btn_grey_shadow</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.1</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="list_item">
+        <item name="android:textColor">@color/list_item</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:shadowColor">@color/list_item_text_shadow</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+    <style name="list_item_subtext">
+        <item name="android:textColor">@color/list_item_subtext_normal</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+    <style name="MoreTabItem" parent="list_item">
+        <item name="android:background">@drawable/list_item_selector</item>
+        <item name="android:focusable">true</item>
+        <item name="android:paddingTop">5dip</item>
+        <item name="android:paddingBottom">5dip</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:drawablePadding">10dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:selectable">true</item>
+        <item name="android:drawableRight">@drawable/arrow</item>
+    </style>
+    <style name="AccountItem" parent="list_item">
+        <item name="android:background">@drawable/list_item_selector</item>
+        <item name="android:focusable">true</item>
+        <item name="android:drawableRight">@drawable/arrow</item>
+        <item name="android:padding">10dip</item>
+        <item name="android:drawablePadding">10dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:selectable">true</item>
+    </style>
+    <style name="radioButton" parent="list_item">
+        <item name="android:background">@drawable/list_item_account_status_selector</item>
+        <item name="android:button">@drawable/btn_radio</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="accountTabIcon">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+    <style name="profilePageHeading">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textColor">#ABABAB</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+     <style name="profilePageValue">
+        <item name="android:layout_height">wrap_content</item>
+         <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="sendingMessageProgressbar">
+        <item name="android:indeterminateDrawable">@drawable/progress_sending_message</item>
+        <item name="android:minHeight">10dp</item>
+        <item name="android:minWidth">10dp</item>
+        <item name="android:maxHeight">10dp</item>
+        <item name="android:maxWidth">10dp</item>
+    </style>
+
+</resources>
