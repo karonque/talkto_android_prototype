@@ -13,13 +13,13 @@ public class MainActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        wait(3);
+        //wait(3);
         redirectToRelevantActivity();
     }
 
     private void redirectToRelevantActivity()
     {
-        Intent intent = new Intent(getApplicationContext(), AccountsActivity.class);
+        Intent intent = new Intent(getApplicationContext(), RosterActivity.class);
         startActivity(intent);
         finish();
     }
