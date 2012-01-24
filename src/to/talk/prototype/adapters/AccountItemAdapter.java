@@ -17,12 +17,12 @@ import to.talk.prototype.R;
  * Time: 1:07 PM
  * To change this template use File | Settings | File Templates.
  */
-public class RosterEntryAdapter extends BaseAdapter
+public class AccountItemAdapter extends BaseAdapter
 {
     private Activity mContext;
     private String[] mContactList = new String[] { "Pawan Maheshwari", "Aditya", "Kashif"};
 
-    public RosterEntryAdapter(Activity context)
+    public AccountItemAdapter(Activity context)
     {
        mContext=context;
     }
@@ -64,10 +64,10 @@ public class RosterEntryAdapter extends BaseAdapter
         if (convertView == null)
         {
 
-            view = mContext.getLayoutInflater().inflate(R.layout.roster_entry, null);
+            view = mContext.getLayoutInflater().inflate(R.layout.account_item, null);
 
             final ViewHolder viewHolder = new ViewHolder();
-            viewHolder.text = (TextView) view.findViewById(R.id.rosterEntryName);
+            viewHolder.text = (TextView) view.findViewById(R.id.accountName);
             viewHolder.spin = (Spinner) view.findViewById(R.id.rosterEntrySpinner);
 
             String[] values = new String[] { "Busy", "Offline", "Invisible"};

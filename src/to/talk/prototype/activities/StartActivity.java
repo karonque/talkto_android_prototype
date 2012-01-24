@@ -6,7 +6,7 @@ import android.os.Bundle;
 import to.talk.prototype.R;
 
 
-public class MainActivity extends Activity
+public class StartActivity extends Activity
 {
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -14,12 +14,12 @@ public class MainActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         //wait(3);
-        redirectToRelevantActivity();
+        startAccountActivity();
     }
 
-    private void redirectToRelevantActivity()
+    private void startAccountActivity()
     {
-        Intent intent = new Intent(getApplicationContext(), RosterActivity.class);
+        Intent intent = new Intent(getApplicationContext(), AccountDetailActivity.class);
         startActivity(intent);
         finish();
     }

@@ -216,22 +216,14 @@ public final class R {
         public static final int window_title=0x7f02009a;
     }
     public static final class id {
-        public static final int account_avataar=0x7f070001;
-        public static final int account_name=0x7f070002;
-        public static final int account_state_icon=0x7f070004;
-        public static final int account_status=0x7f070003;
-        public static final int accounts_table=0x7f070000;
-        public static final int rosterEntryName=0x7f070006;
-        public static final int rosterEntrySpinner=0x7f070007;
-        public static final int rosterList=0x7f070008;
-        public static final int spinner1=0x7f070005;
+        public static final int accountList=0x7f070002;
+        public static final int accountName=0x7f070000;
+        public static final int rosterEntrySpinner=0x7f070001;
     }
     public static final class layout {
-        public static final int accounts=0x7f030000;
-        public static final int accounts_item=0x7f030001;
+        public static final int account_item=0x7f030000;
+        public static final int account_list=0x7f030001;
         public static final int main=0x7f030002;
-        public static final int roster_entry=0x7f030003;
-        public static final int roster_list=0x7f030004;
     }
     public static final class string {
         public static final int ChatPane_Send=0x7f05006c;
