@@ -67,8 +67,8 @@ public class RosterEntryAdapter extends BaseAdapter
             view = mContext.getLayoutInflater().inflate(R.layout.roster_entry, null);
 
             final ViewHolder viewHolder = new ViewHolder();
-            viewHolder.text = (TextView) view.findViewById(R.id.contactEntryText);
-            viewHolder.spin = (Spinner) view.findViewById(R.id.spinner);
+            viewHolder.text = (TextView) view.findViewById(R.id.rosterEntryName);
+            viewHolder.spin = (Spinner) view.findViewById(R.id.rosterEntrySpinner);
 
             String[] values = new String[] { "Busy", "Offline", "Invisible"};
 

@@ -4,22 +4,28 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent">
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content">
 
-        <TextView android:id="@+id/contactEntryText"
-                  android:layout_width="match_parent"
-                  android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/rosterEntryName"
+                  android:layout_width="230dip"
+                  android:layout_height="wrap_content"
+                  android:gravity="center_vertical"
+                  android:paddingTop="10dip"
+                  android:hint="contactEntryText"/>
 
-        <Spinner android:id="@+id/spinner"
-                 android:layout_width="match_parent"
+
+
+        <Spinner android:id="@+id/rosterEntrySpinner"
+                 android:layout_width="100dip"
                  android:layout_height="wrap_content"
+                 android:gravity="right"
 
                 />
 
 
-    </RelativeLayout>
+    </LinearLayout>
 
 
 </LinearLayout>

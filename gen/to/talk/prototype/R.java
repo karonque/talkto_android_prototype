@@ -221,9 +221,9 @@ public final class R {
         public static final int account_state_icon=0x7f070004;
         public static final int account_status=0x7f070003;
         public static final int accounts_table=0x7f070000;
-        public static final int contactEntryText=0x7f070006;
+        public static final int rosterEntryName=0x7f070006;
+        public static final int rosterEntrySpinner=0x7f070007;
         public static final int rosterList=0x7f070008;
-        public static final int spinner=0x7f070007;
         public static final int spinner1=0x7f070005;
     }
     public static final class layout {
