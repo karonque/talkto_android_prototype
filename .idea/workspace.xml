@@ -16,8 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dfe57ec-af7d-4c40-a4eb-821548c2b961" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/RosterActivity.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/RosterActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterEntryAdapter.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterEntryAdapter.java" />
     </list>
     <ignored path="talkto_android_prototype.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,23 +102,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RosterActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RosterActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/RosterActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="46" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.92">
+            <state line="21" column="59" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#986#994#0" expanded="true" />
-                <element signature="e#1384#1392#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RosterEntryAdapter.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="RosterEntryAdapter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterEntryAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="51" selection-start="2876" selection-end="2876" vertical-scroll-proportion="0.0">
+            <state line="113" column="5" selection-start="3361" selection-end="3361" vertical-scroll-proportion="0.9481865">
               <folding />
             </state>
           </provider>
@@ -162,8 +160,8 @@
         <option value="$PROJECT_DIR$/res/layout/roster_entry.xml" />
         <option value="$PROJECT_DIR$/res/layout/roster_list.xml" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterAdapter.java" />
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterEntryAdapter.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/RosterActivity.java" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterEntryAdapter.java" />
       </list>
     </option>
   </component>
@@ -505,7 +503,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24848485" sideWeight="0.6741214" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3258786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46166134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -644,21 +642,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterEntryAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/RosterActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="51" selection-start="2876" selection-end="2876" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="21" column="59" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/RosterActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterEntryAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="46" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.92">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#986#994#0" expanded="true" />
-            <element signature="e#1384#1392#0" expanded="true" />
-          </folding>
+        <state line="113" column="5" selection-start="3361" selection-end="3361" vertical-scroll-proportion="0.9481865">
+          <folding />
         </state>
       </provider>
     </entry>
