@@ -6,6 +6,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Spinner;
 import to.talk.prototype.R;
+import to.talk.prototype.adapters.RosterEntryAdapter;
 
 public final class RosterActivity extends Activity
 {
@@ -22,8 +23,10 @@ public final class RosterActivity extends Activity
         listView = (ListView) findViewById(R.id.rosterList);
         spinner = (Spinner)  getLayoutInflater().inflate(R.layout.roster_entry,null).findViewById(R.id.spinner);
 
+        //populateSpinner();
+
         populateContactList();
-        populateSpinner();
+
 
     }
 
@@ -33,7 +36,9 @@ public final class RosterActivity extends Activity
 
         ArrayAdapter<String> listAdapter = new ArrayAdapter<String>(this,
                 R.layout.roster_entry,R.id.contactEntryText, values);
-        listView.setAdapter(listAdapter);
+
+        RosterEntryAdapter rosterEntryAdapter = new RosterEntryAdapter(this);
+        listView.setAdapter(rosterEntryAdapter);
     }
 
     private void populateSpinner()
