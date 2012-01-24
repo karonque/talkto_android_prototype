@@ -10,7 +10,7 @@ import to.talk.prototype.R;
 public final class RosterActivity extends Activity
 {
 
-    private ListView mContactList;
+    private ListView listView;
     private Spinner spinner;
 
     @Override
@@ -18,10 +18,9 @@ public final class RosterActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.roster_list);
-        //spinner = (Spinner) findViewById(R.id.spinner);
 
-
-        mContactList = (ListView) findViewById(R.id.rosterList);
+        listView = (ListView) findViewById(R.id.rosterList);
+        spinner = (Spinner)  getLayoutInflater().inflate(R.layout.roster_entry,null).findViewById(R.id.spinner);
 
         populateContactList();
         populateSpinner();
@@ -34,17 +33,17 @@ public final class RosterActivity extends Activity
 
         ArrayAdapter<String> listAdapter = new ArrayAdapter<String>(this,
                 R.layout.roster_entry,R.id.contactEntryText, values);
-        mContactList.setAdapter(listAdapter);
+        listView.setAdapter(listAdapter);
     }
 
     private void populateSpinner()
     {
-        Spinner spinner = new Spinner(this);
         String[] values = new String[] { "Busy", "Offline", "Invisible"};
-        ArrayAdapter<String> spinAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, R.id.spinner  ,values);
-        spinAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
-        spinner.setAdapter(spinAdapter);
+        ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item,values);
+        spinnerAdapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
+
+        spinner.setAdapter(spinnerAdapter);
     }
 
 
