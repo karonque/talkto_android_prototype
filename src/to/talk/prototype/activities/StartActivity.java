@@ -19,7 +19,7 @@ public class StartActivity extends Activity
 
     private void startAccountActivity()
     {
-        Intent intent = new Intent(getApplicationContext(), RosterContactActivity.class);
+        Intent intent = new Intent(getApplicationContext(), ContactsFragment.class);
         startActivity(intent);
         finish();
     }

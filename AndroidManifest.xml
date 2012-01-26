@@ -15,7 +15,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".activities.AccountDetailActivity"  android:label="Accounts"/>
-        <activity android:name=".activities.RosterContactActivity"  android:label="Contacts"/>
+        <activity android:name=".activities.AllContactsView"  android:label="Contacts"/>
+        <activity android:name=".activities.ContactsFragment"  android:label="Contacts"/>
 
     </application>
 </manifest> 

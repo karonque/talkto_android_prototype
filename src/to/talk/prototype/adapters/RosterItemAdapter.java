@@ -58,7 +58,7 @@ public class RosterItemAdapter extends BaseAdapter
         if (convertView == null)
         {
 
-            view = mContext.getLayoutInflater().inflate(R.layout.roster_item, null);
+            view = mContext. getLayoutInflater().inflate(R.layout.roster_item, null);
 
             final ViewHolder viewHolder = new ViewHolder();
             viewHolder.contactName = (TextView) view.findViewById(R.id.name);

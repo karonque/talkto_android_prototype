@@ -16,9 +16,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dfe57ec-af7d-4c40-a4eb-821548c2b961" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/contacts_fragment.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/roster_list.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/RosterContactActivity.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/to/talk/prototype/R.java" afterPath="$PROJECT_DIR$/gen/to/talk/prototype/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/StartActivity.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/StartActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterItemAdapter.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterItemAdapter.java" />
     </list>
     <ignored path="talkto_android_prototype.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,10 +81,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="roster_item.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/roster_item.xml">
+      <file leaf-file-name="AllContactsView.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="62" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0">
+            <state line="39" column="68" selection-start="952" selection-end="952" vertical-scroll-proportion="0.25569177">
               <folding />
             </state>
           </provider>
@@ -88,56 +93,7 @@
       <file leaf-file-name="RosterItemAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterItemAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="14" selection-start="2049" selection-end="2049" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RosterContactActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/RosterContactActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="43" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StartActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/StartActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="81" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="40" selection-start="856" selection-end="856" vertical-scroll-proportion="0.6694678">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountDetailActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AccountDetailActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="60" selection-start="310" selection-end="913" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountItemAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/AccountItemAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="56" selection-start="510" selection-end="3370" vertical-scroll-proportion="0.0">
+            <state line="18" column="37" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -158,22 +114,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/RosterActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/roster_entry.xml" />
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterEntryAdapter.java" />
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/AccountItemAdapter.java" />
-        <option value="$PROJECT_DIR$/res/layout/account_list.xml" />
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/MainActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/action_bar.xml" />
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/AccountDetailActivity.java" />
-        <option value="$PROJECT_DIR$/res/menu/action_bar.xml" />
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/entities/RosterContact.java" />
-        <option value="$PROJECT_DIR$/res/layout/roster_list.xml" />
-        <option value="$PROJECT_DIR$/res/layout/roster_item.xml" />
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterItemAdapter.java" />
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/RosterContactActivity.java" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/RosterTabGroupActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/roster_tab.xml" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/StartActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/TestFragment.java" />
+        <option value="$PROJECT_DIR$/res/layout/roster_list.xml" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/RosterTabActivity.java" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/RosterContactActivity.java" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsView.java" />
+        <option value="$PROJECT_DIR$/res/layout/contacts_fragment.xml" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragement.java" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragment.java" />
+        <option value="$PROJECT_DIR$/res/layout/all_contacts_list.xml" />
+        <option value="$PROJECT_DIR$/res/layout/active_chats_list.xml" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterItemAdapter.java" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsView.java" />
       </list>
     </option>
   </component>
@@ -209,8 +165,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -355,18 +309,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="SDKs" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="recentsLimit" value="5" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RunManager" selected="Android Application.talkto-ics">
@@ -543,24 +499,24 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24503817" sideWeight="0.6741214" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24503817" sideWeight="0.5393635" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34504792" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34338358" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24732825" sideWeight="0.6767169" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32328308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46166134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24656488" sideWeight="0.67839193" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32160804" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46063653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -623,71 +579,90 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/values/themes.xml">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/TestFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" />
+        <state line="21" column="51" selection-start="586" selection-end="586" vertical-scroll-proportion="0.57272726">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/local/android-sdk-linux/platforms/android-15/android.jar!/android/widget/SimpleCursorAdapter.class">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="11" selection-start="235" selection-end="235" vertical-scroll-proportion="0.1590106" />
+        <state line="18" column="61" selection-start="917" selection-end="917" vertical-scroll-proportion="0.4909091">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/StartActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="77" selection-start="537" selection-end="537" vertical-scroll-proportion="0.47285464">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/android-sdk-linux/platforms/android-15/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="339" column="0" selection-start="16531" selection-end="16531" vertical-scroll-proportion="0.65648854">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/local/android-sdk-linux/platforms/android-15/android.jar!/android/view/LayoutInflater.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="29" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.09893993" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="404" selection-end="404" vertical-scroll-proportion="0.33678755" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/action_bar.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="10" selection-start="846" selection-end="846" vertical-scroll-proportion="0.54545456">
+        <state line="57" column="0" selection-start="2955" selection-end="2955" vertical-scroll-proportion="0.65648854">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/entities/RosterContact.java">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="27" column="1" selection-start="675" selection-end="675" vertical-scroll-proportion="0.7258065">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/account_item.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/roster_tab.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="32" selection-start="0" selection-end="956" vertical-scroll-proportion="0.7448015">
+        <state line="22" column="38" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.6">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/account_list.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="265" selection-end="469" vertical-scroll-proportion="0.34150612">
+        <state line="13" column="19" selection-start="266" selection-end="469" vertical-scroll-proportion="0.35454544">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/roster_item.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/active_chats_list.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="62" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0">
+        <state line="6" column="44" selection-start="271" selection-end="271" vertical-scroll-proportion="0.17013232">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/AccountItemAdapter.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/all_contacts_list.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="56" selection-start="510" selection-end="3370" vertical-scroll-proportion="0.0">
+        <state line="7" column="44" selection-start="272" selection-end="272" vertical-scroll-proportion="0.20669292">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterItemAdapter.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/contacts_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="14" selection-start="2049" selection-end="2049" vertical-scroll-proportion="0.0">
+        <state line="15" column="62" selection-start="665" selection-end="665" vertical-scroll-proportion="0.42533082">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="19" selection-start="364" selection-end="364" vertical-scroll-proportion="0.33527133">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -696,37 +671,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AccountDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="60" selection-start="310" selection-end="913" vertical-scroll-proportion="0.0">
+        <state line="28" column="12" selection-start="365" selection-end="710" vertical-scroll-proportion="0.57793343">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/RosterContactActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/AccountItemAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="43" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/roster_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="50" selection-start="403" selection-end="403" vertical-scroll-proportion="0.24545455">
+        <state line="115" column="56" selection-start="510" selection-end="3370" vertical-scroll-proportion="0.83870965">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/StartActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterItemAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="81" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
+        <state line="18" column="37" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="40" selection-start="856" selection-end="856" vertical-scroll-proportion="0.6694678">
+        <state line="39" column="68" selection-start="952" selection-end="952" vertical-scroll-proportion="0.25569177">
           <folding />
         </state>
       </provider>
