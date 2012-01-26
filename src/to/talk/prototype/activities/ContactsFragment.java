@@ -6,13 +6,7 @@ import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
 
-/**
- * Created by IntelliJ IDEA.
- * User: pawan
- * Date: 1/26/12
- * Time: 2:51 PM
- * To change this template use File | Settings | File Templates.
- */
+
 public final class ContactsFragment extends Activity
 {
 
@@ -29,8 +23,8 @@ public final class ContactsFragment extends Activity
 
         ActionBar.Tab tab = actionBar.newTab()
                 .setText("Active Chats")
-                .setTabListener(new MTabListener<AllContactsView>(
-                        this, "activeChats", AllContactsView.class));
+                .setTabListener(new MTabListener<ActiveChatsView>(
+                        this, "activeChats", ActiveChatsView.class));
         actionBar.addTab(tab);
 
         tab = actionBar.newTab()

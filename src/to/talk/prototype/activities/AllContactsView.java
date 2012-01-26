@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 import to.talk.prototype.R;
-import to.talk.prototype.adapters.RosterItemAdapter;
+import to.talk.prototype.adapters.AllContactsAdapter;
 
 /**
  * Created by IntelliJ IDEA.
@@ -39,33 +39,11 @@ public class AllContactsView extends Fragment
 
         listView = (ListView) view.findViewById(R.id.allContactsList);
 
-        RosterItemAdapter itemAdapter = new RosterItemAdapter(this.getActivity());
+        AllContactsAdapter itemAdapter = new AllContactsAdapter(this.getActivity());
 
         listView.setAdapter(itemAdapter);
 
         return view;
     }
 
-    /*@Override
-    public void onCreate(Bundle savedInstanceState)
-    {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.contacts_fragment);
-
-        listView = (ListView) findViewById(R.id.rosterList);
-
-        RosterItemAdapter itemAdapter = new RosterItemAdapter(this);
-
-        listView.setAdapter(itemAdapter);
-
-
-    }
-*/
-    /*@Override
-    public boolean onCreateOptionsMenu(Menu menu)
-    {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.action_bar, menu);
-        return true;
-    }*/
 }

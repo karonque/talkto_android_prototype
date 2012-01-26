@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 import to.talk.prototype.R;
+import to.talk.prototype.adapters.ActiveChatsAdapter;
 
 /**
  * Created by IntelliJ IDEA.
@@ -18,11 +19,31 @@ import to.talk.prototype.R;
 public class ActiveChatsView extends Fragment
 {
 
+    View view;
     private ListView listView;
 
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
-        return inflater.inflate(R.layout.contacts_fragment, container, false);
+        if(container == null)
+        {
+            return null;
+        }
+
+        if(view !=null)
+        {
+            return view;
+        }
+
+        view =  inflater.inflate(R.layout.active_chats_list, container, false);
+
+        listView = (ListView) view.findViewById(R.id.activeChatsList);
+
+        ActiveChatsAdapter itemAdapter = new ActiveChatsAdapter(this.getActivity());
+
+        listView.setAdapter(itemAdapter);
+
+        return view;
     }
+
 }

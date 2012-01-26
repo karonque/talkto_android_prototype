@@ -16,14 +16,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dfe57ec-af7d-4c40-a4eb-821548c2b961" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/contacts_fragment.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/roster_list.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/RosterContactActivity.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterItemAdapter.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/adapters/AllContactsAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/to/talk/prototype/R.java" afterPath="$PROJECT_DIR$/gen/to/talk/prototype/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/StartActivity.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/StartActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterItemAdapter.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterItemAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsView.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsView.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragment.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragment.java" />
     </list>
     <ignored path="talkto_android_prototype.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,19 +78,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AllContactsView.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AllContactsView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="68" selection-start="952" selection-end="952" vertical-scroll-proportion="0.25569177">
+            <state line="18" column="13" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RosterItemAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterItemAdapter.java">
+      <file leaf-file-name="ActiveChatsView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="37" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
+            <state line="18" column="13" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActiveChatsAdapter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/ActiveChatsAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="68" selection-start="481" selection-end="481" vertical-scroll-proportion="0.2994746">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactsFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="121" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AllContactsAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/AllContactsAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="112" column="48" selection-start="360" selection-end="3501" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,22 +144,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/RosterTabGroupActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/roster_tab.xml" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/StartActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/TestFragment.java" />
         <option value="$PROJECT_DIR$/res/layout/roster_list.xml" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/RosterTabActivity.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/RosterContactActivity.java" />
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsView.java" />
         <option value="$PROJECT_DIR$/res/layout/contacts_fragment.xml" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragement.java" />
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragment.java" />
         <option value="$PROJECT_DIR$/res/layout/all_contacts_list.xml" />
         <option value="$PROJECT_DIR$/res/layout/active_chats_list.xml" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterItemAdapter.java" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/AllContactsAdapter.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsView.java" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsView.java" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragment.java" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/ActiveChatsAdapter.java" />
       </list>
     </option>
   </component>
@@ -579,15 +609,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/TestFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="51" selection-start="586" selection-end="586" vertical-scroll-proportion="0.57272726">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="61" selection-start="917" selection-end="917" vertical-scroll-proportion="0.4909091">
@@ -613,15 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="0" selection-start="2955" selection-end="2955" vertical-scroll-proportion="0.65648854">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="1" selection-start="675" selection-end="675" vertical-scroll-proportion="0.7258065">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,15 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="364" selection-end="364" vertical-scroll-proportion="0.33527133">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AccountDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="12" selection-start="365" selection-end="710" vertical-scroll-proportion="0.57793343">
@@ -683,17 +686,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/RosterItemAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/AllContactsAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="37" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
+        <state line="112" column="48" selection-start="360" selection-end="3501" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="68" selection-start="952" selection-end="952" vertical-scroll-proportion="0.25569177">
+        <state line="18" column="13" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="121" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/ActiveChatsAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="68" selection-start="481" selection-end="481" vertical-scroll-proportion="0.2994746">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -11,12 +11,12 @@ import android.widget.TextView;
 import to.talk.prototype.R;
 
 
-public class RosterItemAdapter extends BaseAdapter
+public class AllContactsAdapter extends BaseAdapter
 {
     private Activity mContext;
     private String[] mContactList = new String[] { "Pawan", "Aditya", "Kashif", "Isneesh", "Rahul", "Gaurav", "Naresh", "Vineet"};
 
-    public RosterItemAdapter(Activity context)
+    public AllContactsAdapter(Activity context)
     {
         mContext=context;
     }
