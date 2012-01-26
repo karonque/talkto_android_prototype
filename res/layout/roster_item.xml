@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="@drawable/list_item_selector"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:layout_height="25dp"
+                    android:id="@+id/name_presence"
+                    android:layout_marginRight="80dp">
+
+        <ImageView android:id="@+id/presence"
+                   android:src="@drawable/presence_busy"
+                   android:layout_alignParentBottom="true"
+                   android:layout_marginBottom="5dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/name"
+                  android:layout_marginLeft="7dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  style="@style/list_item"
+                  android:hint="contactName"
+                  android:layout_toRightOf="@id/presence"/>
+
+    </RelativeLayout>
+    <TextView android:id="@+id/status"
+              android:layout_marginLeft="25dp"
+              android:layout_marginRight="80dp"
+              android:layout_width="wrap_content"
+              android:layout_height="25dp"
+              android:hint="contactStatus"
+              android:layout_below="@id/name_presence"
+              style="@style/list_item_subtext"
+            />
+
+
+    <FrameLayout
+            android:id="@+id/avatarFrameLayout"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="48dp"
+            android:layout_height="48dp">
+
+        <ImageView
+                android:id="@+id/contactAvatar"
+                android:src="@drawable/avatar"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+                android:scaleType="fitCenter"
+                />
+        <ImageView
+                android:src="@drawable/avatar_frame"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitCenter"
+                />
+    </FrameLayout>
+
+    <ImageView android:id="@+id/serviceType"
+               android:paddingRight="5dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+               android:src="@drawable/service_pingpong_grey"
+               android:layout_toLeftOf="@+id/avatarFrameLayout"/>
+
+</RelativeLayout>
