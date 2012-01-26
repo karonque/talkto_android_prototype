@@ -22,7 +22,6 @@
                   android:layout_marginLeft="7dp"
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
-                  style="@style/list_item"
                   android:hint="contactName"
                   android:layout_toRightOf="@id/presence"/>
 
@@ -34,7 +33,6 @@
               android:layout_height="25dp"
               android:hint="contactStatus"
               android:layout_below="@id/name_presence"
-              style="@style/list_item_subtext"
             />
 
 
