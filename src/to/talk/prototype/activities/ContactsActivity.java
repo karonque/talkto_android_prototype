@@ -5,6 +5,8 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
+import android.view.Menu;
+import to.talk.prototype.R;
 
 
 public final class ContactsActivity extends Activity
@@ -31,6 +33,14 @@ public final class ContactsActivity extends Activity
                         this, "allContacts", AllContactsFragment.class));
         actionBar.addTab(tab);
 
+    }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu)
+    {
+        getMenuInflater().inflate(R.menu.action_bar, menu);
+        return super.onCreateOptionsMenu(menu);
     }
 
     protected class MTabListener<T extends Fragment> implements ActionBar.TabListener {
