@@ -7,10 +7,8 @@ import android.app.FragmentTransaction;
 import android.os.Bundle;
 
 
-public final class ContactsFragment extends Activity
+public final class ContactsActivity extends Activity
 {
-
-
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
@@ -23,14 +21,14 @@ public final class ContactsFragment extends Activity
 
         ActionBar.Tab tab = actionBar.newTab()
                 .setText("Active Chats")
-                .setTabListener(new MTabListener<ActiveChatsView>(
-                        this, "activeChats", ActiveChatsView.class));
+                .setTabListener(new MTabListener<ActiveChatsFragment>(
+                        this, "activeChats", ActiveChatsFragment.class));
         actionBar.addTab(tab);
 
         tab = actionBar.newTab()
                 .setText("Contacts")
-                .setTabListener(new MTabListener<AllContactsView>(
-                        this, "allContacts", AllContactsView.class));
+                .setTabListener(new MTabListener<AllContactsFragment>(
+                        this, "allContacts", AllContactsFragment.class));
         actionBar.addTab(tab);
 
     }
@@ -75,6 +73,8 @@ public final class ContactsFragment extends Activity
         {
         }
     }
+
+
 }
 
 

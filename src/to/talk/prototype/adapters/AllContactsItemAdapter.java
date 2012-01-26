@@ -11,12 +11,12 @@ import android.widget.TextView;
 import to.talk.prototype.R;
 
 
-public class AllContactsAdapter extends BaseAdapter
+public class AllContactsItemAdapter extends BaseAdapter
 {
     private Activity mContext;
     private String[] mContactList = new String[] { "Pawan", "Aditya", "Kashif", "Isneesh", "Rahul", "Gaurav", "Naresh", "Vineet"};
 
-    public AllContactsAdapter(Activity context)
+    public AllContactsItemAdapter(Activity context)
     {
         mContext=context;
     }
@@ -58,7 +58,7 @@ public class AllContactsAdapter extends BaseAdapter
         if (convertView == null)
         {
 
-            view = mContext. getLayoutInflater().inflate(R.layout.roster_item, null);
+            view = mContext. getLayoutInflater().inflate(R.layout.contacts_item, null);
 
             final ViewHolder viewHolder = new ViewHolder();
             viewHolder.contactName = (TextView) view.findViewById(R.id.name);

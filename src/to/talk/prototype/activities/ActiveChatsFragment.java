@@ -7,16 +7,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 import to.talk.prototype.R;
-import to.talk.prototype.adapters.AllContactsAdapter;
+import to.talk.prototype.adapters.ActiveChatsItemAdapter;
 
 /**
  * Created by IntelliJ IDEA.
  * User: pawan
  * Date: 1/26/12
- * Time: 2:26 PM
+ * Time: 4:50 PM
  * To change this template use File | Settings | File Templates.
  */
-public class AllContactsView extends Fragment
+public class ActiveChatsFragment extends Fragment
 {
 
     View view;
@@ -35,11 +35,11 @@ public class AllContactsView extends Fragment
             return view;
         }
 
-        view =  inflater.inflate(R.layout.all_contacts_list, container, false);
+        view =  inflater.inflate(R.layout.active_chats_view, container, false);
 
-        listView = (ListView) view.findViewById(R.id.allContactsList);
+        listView = (ListView) view.findViewById(R.id.activeChatsList);
 
-        AllContactsAdapter itemAdapter = new AllContactsAdapter(this.getActivity());
+        ActiveChatsItemAdapter itemAdapter = new ActiveChatsItemAdapter(this.getActivity());
 
         listView.setAdapter(itemAdapter);
 
