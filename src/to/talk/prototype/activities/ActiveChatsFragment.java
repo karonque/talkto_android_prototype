@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 import to.talk.prototype.R;
-import to.talk.prototype.adapters.ActiveChatsItemAdapter;
+import to.talk.prototype.adapters.ActiveChatsAdapter;
 
 /**
  * Created by IntelliJ IDEA.
@@ -39,7 +39,7 @@ public class ActiveChatsFragment extends Fragment
 
         listView = (ListView) view.findViewById(R.id.activeChatsList);
 
-        ActiveChatsItemAdapter itemAdapter = new ActiveChatsItemAdapter(this.getActivity());
+        ActiveChatsAdapter itemAdapter = new ActiveChatsAdapter(this.getActivity());
 
         listView.setAdapter(itemAdapter);
 

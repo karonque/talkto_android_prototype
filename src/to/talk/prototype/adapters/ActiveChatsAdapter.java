@@ -11,12 +11,12 @@ import android.widget.TextView;
 import to.talk.prototype.R;
 
 
-public class ActiveChatsItemAdapter extends BaseAdapter
+public class ActiveChatsAdapter extends BaseAdapter
 {
     private Activity mContext;
     private String[] mContactList = new String[] { "Vineet", "Vikram"};
 
-    public ActiveChatsItemAdapter(Activity context)
+    public ActiveChatsAdapter(Activity context)
     {
         mContext=context;
     }

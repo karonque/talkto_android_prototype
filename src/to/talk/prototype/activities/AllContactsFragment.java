@@ -7,7 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 import to.talk.prototype.R;
-import to.talk.prototype.adapters.AllContactsItemAdapter;
+import to.talk.prototype.adapters.AllContactsAdapter;
+import to.talk.prototype.adapters.FavouriteContactsAdapter;
 import to.talk.prototype.adapters.SeparatedListAdapter;
 
 /**
@@ -42,9 +43,9 @@ public class AllContactsFragment extends Fragment
 
         SeparatedListAdapter itemAdapter = new SeparatedListAdapter(this.getActivity());
 
-        itemAdapter.addSection("Favourite Contacts", new AllContactsItemAdapter(this.getActivity()));
+        itemAdapter.addSection("Favourites", new FavouriteContactsAdapter(this.getActivity()));
 
-        itemAdapter.addSection("All Contacts", new AllContactsItemAdapter(this.getActivity()));
+        itemAdapter.addSection("All Online", new AllContactsAdapter(this.getActivity()));
 
 
 
