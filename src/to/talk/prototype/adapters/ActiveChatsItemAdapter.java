@@ -73,7 +73,7 @@ public class ActiveChatsItemAdapter extends BaseAdapter
             //viewHolder.spin.setAdapter(spinnerAdapter);
 
             viewHolder.contactName.setText(mContactList[position]);
-            viewHolder.contactStatus.setText("Status: " + mContactList[position]);
+            viewHolder.contactStatus.setText("Typing ..");
 
             view.setTag(viewHolder);
 

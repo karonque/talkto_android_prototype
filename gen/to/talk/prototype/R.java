@@ -228,17 +228,18 @@ public final class R {
         public static final int activeChatsList=0x7f080003;
         public static final int allContactsList=0x7f080004;
         public static final int avatarFrameLayout=0x7f08000b;
+        public static final int avatarSpinner=0x7f08000d;
         public static final int contactAvatar=0x7f08000c;
-        public static final int menu_refresh=0x7f080010;
-        public static final int menu_search=0x7f08000e;
-        public static final int menu_share=0x7f08000f;
+        public static final int menu_refresh=0x7f080011;
+        public static final int menu_search=0x7f08000f;
+        public static final int menu_share=0x7f080010;
         public static final int name=0x7f080009;
         public static final int name_presence=0x7f080007;
         public static final int presence=0x7f080008;
         public static final int rosterEntrySpinner=0x7f080001;
         public static final int rosterList=0x7f080005;
         public static final int rosterList2=0x7f080006;
-        public static final int serviceType=0x7f08000d;
+        public static final int serviceType=0x7f08000e;
         public static final int status=0x7f08000a;
     }
     public static final class layout {

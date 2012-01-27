@@ -63,17 +63,17 @@ public class AllContactsItemAdapter extends BaseAdapter
             final ViewHolder viewHolder = new ViewHolder();
             viewHolder.contactName = (TextView) view.findViewById(R.id.name);
             viewHolder.contactStatus = (TextView) view.findViewById(R.id.status);
-            //viewHolder.spin = (Spinner) view.findViewById(R.id.rosterEntrySpinner);
+            viewHolder.avatarSpinner = (Spinner) view.findViewById(R.id.avatarSpinner);
 
-            String[] values = new String[] { "Busy", "Offline", "Invisible"};
+            String[] values = new String[] { "Busy", "Available", "Offline", "Invisible"};
 
             ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<String>(mContext, android.R.layout.simple_spinner_item,values);
             spinnerAdapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
 
-            //viewHolder.spin.setAdapter(spinnerAdapter);
+            viewHolder.avatarSpinner.setAdapter(spinnerAdapter);
 
             viewHolder.contactName.setText(mContactList[position]);
-            viewHolder.contactStatus.setText("Status: " + mContactList[position]);
+            viewHolder.contactStatus.setText("Using https://talk.to On Android ICS");
 
             view.setTag(viewHolder);
 
