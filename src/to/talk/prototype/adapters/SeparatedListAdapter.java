@@ -37,11 +37,9 @@ public class SeparatedListAdapter extends BaseAdapter
             Adapter adapter = sections.get(section);
             int size = adapter.getCount() + 1;
 
-            // check if position inside this section
             if (position == 0) return section;
             if (position < size) return adapter.getItem(position - 1);
 
-            // otherwise jump into next section
             position -= size;
         }
         return null;
@@ -49,7 +47,6 @@ public class SeparatedListAdapter extends BaseAdapter
 
     public int getCount()
     {
-        // total together all sections, plus one for each section header
         int total = 0;
         for (Adapter adapter : this.sections.values())
             total += adapter.getCount() + 1;
@@ -58,7 +55,6 @@ public class SeparatedListAdapter extends BaseAdapter
 
     public int getViewTypeCount()
     {
-        // assume that headers count as one, then total all sections
         int total = 1;
         for (Adapter adapter : this.sections.values())
             total += adapter.getViewTypeCount();
@@ -73,20 +69,19 @@ public class SeparatedListAdapter extends BaseAdapter
             Adapter adapter = sections.get(section);
             int size = adapter.getCount() + 1;
 
-            // check if position inside this section
-            if (position == 0) return TYPE_SECTION_HEADER;
-            if (position < size) return type + adapter.getItemViewType(position - 1);
+            if (position == 0)
+            {
+                return TYPE_SECTION_HEADER;
+            }
+            if (position < size)
+            {
+                return type + adapter.getItemViewType(position - 1);
+            }
 
-            // otherwise jump into next section
             position -= size;
             type += adapter.getViewTypeCount();
         }
         return -1;
-    }
-
-    public boolean areAllItemsSelectable()
-    {
-        return false;
     }
 
     public boolean isEnabled(int position)
@@ -102,11 +97,15 @@ public class SeparatedListAdapter extends BaseAdapter
             Adapter adapter = sections.get(section);
             int size = adapter.getCount() + 1;
 
-            // check if position inside this section
-            if (position == 0) return headers.getView(sectionnum, convertView, parent);
-            if (position < size) return adapter.getView(position - 1, convertView, parent);
+            if (position == 0)
+            {
+                return headers.getView(sectionnum, convertView, parent);
+            }
+            if (position < size)
+            {
+                return adapter.getView(position - 1, convertView, parent);
+            }
 
-            // otherwise jump into next section
             position -= size;
             sectionnum++;
         }
