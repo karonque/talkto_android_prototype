@@ -231,9 +231,8 @@ public final class R {
         public static final int avatarSpinner=0x7f08000d;
         public static final int contactAvatar=0x7f08000c;
         public static final int list_header_title=0x7f08000f;
-        public static final int menu_refresh=0x7f080012;
+        public static final int menu_accounts=0x7f080011;
         public static final int menu_search=0x7f080010;
-        public static final int menu_share=0x7f080011;
         public static final int name=0x7f080009;
         public static final int name_presence=0x7f080007;
         public static final int presence=0x7f080008;
