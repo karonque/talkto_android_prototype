@@ -1,9 +1,11 @@
 package to.talk.prototype.activities;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.ListView;
 import to.talk.prototype.R;
 import to.talk.prototype.adapters.AccountItemAdapter;
@@ -29,10 +31,30 @@ public final class AccountDetailActivity extends Activity
     }
 
     @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        switch (item.getItemId())
+        {
+            case R.id.menu_contacts:
+                startActivity(ContactsActivity.class);
+            default:
+                return true;
+
+        }
+    }
+
+    private void startActivity(Class clz)
+    {
+        Intent intent = new Intent(getApplicationContext(), clz);
+        startActivity(intent);
+        finish();
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu)
     {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.action_bar, menu);
-        return true;
+        MenuInflater menuInflater =  getMenuInflater() ;
+        menuInflater.inflate(R.menu.action_bar_accounts, menu);
+        return super.onCreateOptionsMenu(menu);
     }
 }

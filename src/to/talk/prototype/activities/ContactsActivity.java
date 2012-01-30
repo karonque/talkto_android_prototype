@@ -2,14 +2,13 @@ package to.talk.prototype.activities;
 
 import android.app.ActionBar;
 import android.app.Activity;
-import android.app.Fragment;
-import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
 import to.talk.prototype.R;
+import to.talk.prototype.listeners.ActionBarTabListener;
 
 
 public final class ContactsActivity extends Activity
@@ -25,110 +24,46 @@ public final class ContactsActivity extends Activity
 
         ActionBar.Tab tab = actionBar.newTab()
                 .setText("Active Chats")
-                .setTabListener(new MTabListener<ActiveChatsFragment>(
+                .setTabListener(new ActionBarTabListener(
                         this, "activeChats", ActiveChatsFragment.class));
         actionBar.addTab(tab);
 
         tab = actionBar.newTab()
                 .setText("Contacts")
-                .setTabListener(new MTabListener<AllContactsFragment>(
+                .setTabListener(new ActionBarTabListener(
                         this, "allContacts", AllContactsFragment.class));
         actionBar.addTab(tab);
-
-
 
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item)
     {
-        // Handle item selection
         switch (item.getItemId())
         {
             case R.id.menu_accounts:
-                startAccountActivity();
-                return true;
+                startActivity(AccountDetailActivity.class);
             default:
-                return false;
+                return true;
 
         }
     }
 
-    private void startAccountActivity()
+    private void startActivity(Class clz)
     {
-        Intent intent = new Intent(getApplicationContext(), AccountDetailActivity.class);
+        Intent intent = new Intent(getApplicationContext(), clz);
         startActivity(intent);
         finish();
     }
+
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu)
     {
-        getMenuInflater().inflate(R.menu.action_bar, menu);
+        MenuInflater menuInflater =  getMenuInflater() ;
+        menuInflater.inflate(R.menu.action_bar_contacts, menu);
         return super.onCreateOptionsMenu(menu);
     }
-
-
-    private class ActionBarClickListener implements View.OnClickListener
-    {
-
-        public void onClick(View view)
-        {
-            switch (view.getId())
-            {
-                case R.id.menu_accounts:
-                      startAccountActivity();
-                return;
-            }
-        }
-
-        private void startAccountActivity()
-        {
-            Intent intent = new Intent(getApplicationContext(), ContactsActivity.class);
-            startActivity(intent);
-            finish();
-        }
-    }
-
-    private class MTabListener<T extends Fragment> implements ActionBar.TabListener
-    {
-        private Fragment mFragment;
-        private final Activity mActivity;
-        private final String mTag;
-        private final Class<T> mClass;
-
-        public MTabListener(Activity activity, String tag, Class<T> clz)
-        {
-            mActivity = activity;
-            mTag = tag;
-            mClass = clz;
-        }
-
-
-        public void onTabSelected(ActionBar.Tab tab, FragmentTransaction ft)
-        {
-            if (mFragment == null)
-            {
-                mFragment = Fragment.instantiate(mActivity, mClass.getName());
-                ft.add(android.R.id.content, mFragment, mTag);
-            } else
-            {
-                ft.attach(mFragment);
-            }
-        }
-
-        public void onTabUnselected(ActionBar.Tab tab, FragmentTransaction ft)
-        {
-            if (mFragment != null)
-            {
-                ft.detach(mFragment);
-            }
-        }
-
-        public void onTabReselected(ActionBar.Tab tab, FragmentTransaction ft)
-        {
-        }
-    }
-
 
 }
 

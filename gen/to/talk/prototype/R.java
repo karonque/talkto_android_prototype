@@ -231,7 +231,8 @@ public final class R {
         public static final int avatarSpinner=0x7f08000d;
         public static final int contactAvatar=0x7f08000c;
         public static final int list_header_title=0x7f08000f;
-        public static final int menu_accounts=0x7f080011;
+        public static final int menu_accounts=0x7f080012;
+        public static final int menu_contacts=0x7f080011;
         public static final int menu_search=0x7f080010;
         public static final int name=0x7f080009;
         public static final int name_presence=0x7f080007;
@@ -253,7 +254,8 @@ public final class R {
         public static final int main=0x7f030007;
     }
     public static final class menu {
-        public static final int action_bar=0x7f070000;
+        public static final int action_bar_accounts=0x7f070000;
+        public static final int action_bar_contacts=0x7f070001;
     }
     public static final class string {
         public static final int ChatPane_Send=0x7f05006c;
