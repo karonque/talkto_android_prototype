@@ -16,11 +16,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dfe57ec-af7d-4c40-a4eb-821548c2b961" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/to/talk/prototype/adapters/ActiveChatsItemAdapter.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/adapters/ActiveChatsAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/to/talk/prototype/adapters/AllContactsItemAdapter.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/adapters/AllContactsAdapter.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/contacts_item.xml" afterPath="$PROJECT_DIR$/res/layout/contacts_item.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsFragment.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsFragment.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsActivity.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/adapters/ActiveChatsAdapter.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/adapters/ActiveChatsAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/adapters/AllContactsAdapter.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/adapters/AllContactsAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/adapters/FavouriteContactsAdapter.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/adapters/FavouriteContactsAdapter.java" />
     </list>
     <ignored path="talkto_android_prototype.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,39 +91,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AllContactsFragment.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AllContactsFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="42" selection-start="1306" selection-end="1306" vertical-scroll-proportion="1.023622">
+            <state line="33" column="54" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FavouriteContactsAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/FavouriteContactsAdapter.java">
+      <file leaf-file-name="ActiveChatsFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="68" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2239#2247#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all_contacts_view.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/all_contacts_view.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="12" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="action_bar.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/menu/action_bar.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="32" column="78" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -137,10 +121,35 @@
       <file leaf-file-name="AllContactsAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/AllContactsAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="127" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2287#2295#0" expanded="true" />
-              </folding>
+            <state line="67" column="109" selection-start="2141" selection-end="2238" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FavouriteContactsAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/FavouriteContactsAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="93" selection-start="0" selection-end="3501" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActiveChatsAdapter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/ActiveChatsAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="121" selection-start="1759" selection-end="1759" vertical-scroll-proportion="0.50138503">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts_item.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/contacts_item.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="61" selection-start="2369" selection-end="2369" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,10 +158,7 @@
         <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/SeparatedListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="105" column="0" selection-start="3000" selection-end="3000" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#436#453#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -172,12 +178,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/ActiveChatsAdapter.java" />
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsView.java" />
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragment.java" />
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsActivity.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/ActiveChatsItemAdapter.java" />
-        <option value="$PROJECT_DIR$/res/layout/contacts_item.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/all_contacts_view.xml" />
         <option value="$PROJECT_DIR$/res/layout/active_chats_view.xml" />
@@ -185,16 +186,22 @@
         <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/MultipleHeadersList.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/SeparatedListAdapter.java" />
         <option value="$PROJECT_DIR$/res/layout/list_view_header.xml" />
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/FavouriteContactsAdapter.java" />
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/AllContactsAdapter.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsFragment.java" />
+        <option value="$PROJECT_DIR$/res/menu/contact_list_options.xml" />
+        <option value="$PROJECT_DIR$/res/layout/contacts_item.xml" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsActivity.java" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/AllContactsAdapter.java" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/FavouriteContactsAdapter.java" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsFragment.java" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/ActiveChatsAdapter.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1366" />
-    <option name="height" value="744" />
+    <option name="x" value="-8" />
+    <option name="y" value="-5" />
+    <option name="width" value="1382" />
+    <option name="height" value="781" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -223,6 +230,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -367,12 +375,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
@@ -383,8 +390,8 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Android Application.talkto-ics">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -556,11 +563,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <frame x="-8" y="-5" width="1382" height="781" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24430956" sideWeight="0.68370605" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24430956" sideWeight="0.6853035" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.68210864" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -572,8 +579,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24658574" sideWeight="0.68370605" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31629393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24658574" sideWeight="0.6853035" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3146965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4600639" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -640,23 +647,34 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/AccountItemAdapter.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" />
+        <state line="17" column="8" selection-start="803" selection-end="803" vertical-scroll-proportion="0.44041452" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/ActiveChatsAdapter.java">
+    <entry file="jar://$USER_HOME$/local/android-sdk-linux/platforms/android-15/android.jar!/android/widget/ArrayAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="80" selection-start="2607" selection-end="2607" vertical-scroll-proportion="0.7582038">
-          <folding />
-        </state>
+        <state line="56" column="0" selection-start="2650" selection-end="2650" vertical-scroll-proportion="0.676259" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/account_item.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/list_view_header.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="29" selection-start="730" selection-end="730" vertical-scroll-proportion="0.53763443">
-          <folding />
-        </state>
+        <state line="10" column="59" selection-start="414" selection-end="414" vertical-scroll-proportion="0.26881722" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AccountDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="19" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/contacts_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="68" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/SeparatedListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="0" selection-start="3000" selection-end="3000" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/menu/action_bar.xml">
@@ -664,37 +682,23 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/contacts_fragment.xml">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/AllContactsAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="68" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+        <state line="67" column="109" selection-start="2141" selection-end="2238" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/all_contacts_view.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="12" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
+        <state line="12" column="12" selection-start="465" selection-end="465" vertical-scroll-proportion="0.3488372">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/active_chats_view.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="12" selection-start="464" selection-end="464" vertical-scroll-proportion="0.30726257">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="803" selection-end="803" vertical-scroll-proportion="0.44041452">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/contacts_item.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="70" selection-start="605" selection-end="605" vertical-scroll-proportion="0.37634408">
+        <state line="11" column="12" selection-start="464" selection-end="464" vertical-scroll-proportion="0.2956989">
           <folding />
         </state>
       </provider>
@@ -706,51 +710,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/local/android-sdk-linux/platforms/android-15/android.jar!/android/widget/ArrayAdapter.class">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="2650" selection-end="2650" vertical-scroll-proportion="0.676259">
+        <state line="33" column="54" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/SeparatedListAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="0" selection-start="3000" selection-end="3000" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#436#453#0" expanded="true" />
-          </folding>
+        <state line="32" column="78" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/list_view_header.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/contacts_item.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="59" selection-start="414" selection-end="414" vertical-scroll-proportion="0.26881722">
+        <state line="62" column="61" selection-start="2369" selection-end="2369" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/FavouriteContactsAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="68" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2239#2247#0" expanded="true" />
-          </folding>
+        <state line="17" column="93" selection-start="0" selection-end="3501" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/AllContactsAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/adapters/ActiveChatsAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="127" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2287#2295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="42" selection-start="1306" selection-end="1306" vertical-scroll-proportion="1.023622">
+        <state line="60" column="121" selection-start="1759" selection-end="1759" vertical-scroll-proportion="0.50138503">
           <folding />
         </state>
       </provider>
@@ -832,6 +822,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>android-support-v4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -65,7 +65,7 @@ public class FavouriteContactsAdapter extends BaseAdapter
             viewHolder.contactStatus = (TextView) view.findViewById(R.id.status);
             viewHolder.avatarSpinner = (Spinner) view.findViewById(R.id.avatarSpinner);
 
-            String[] values = new String[] { "Busy", "Available", "Offline", "Invisible"};
+            String[] values = new String[] { "Chat/SMS", "View Profile", "Link", "Remove", "Remove Favourite"};
 
             ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<String>(mContext, android.R.layout.simple_spinner_item,values);
             spinnerAdapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);

@@ -43,6 +43,8 @@ public final class ContactsActivity extends Activity
         return super.onCreateOptionsMenu(menu);
     }
 
+    
+
     protected class MTabListener<T extends Fragment> implements ActionBar.TabListener {
 
         private Fragment mFragment;

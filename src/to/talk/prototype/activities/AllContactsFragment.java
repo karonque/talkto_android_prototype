@@ -11,13 +11,7 @@ import to.talk.prototype.adapters.AllContactsAdapter;
 import to.talk.prototype.adapters.FavouriteContactsAdapter;
 import to.talk.prototype.adapters.SeparatedListAdapter;
 
-/**
- * Created by IntelliJ IDEA.
- * User: pawan
- * Date: 1/26/12
- * Time: 2:26 PM
- * To change this template use File | Settings | File Templates.
- */
+
 public class AllContactsFragment extends Fragment
 {
 

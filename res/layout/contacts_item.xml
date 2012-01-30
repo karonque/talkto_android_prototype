@@ -65,7 +65,9 @@
                  android:layout_width="20dip"
                  android:layout_height="20dip"
                  android:layout_gravity="bottom|right"
+                 android:spinnerMode="dialog"
                 />
+
 
     </FrameLayout>
 

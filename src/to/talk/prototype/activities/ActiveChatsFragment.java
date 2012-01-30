@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import to.talk.prototype.R;
 import to.talk.prototype.adapters.ActiveChatsAdapter;
+import to.talk.prototype.adapters.FavouriteContactsAdapter;
+import to.talk.prototype.adapters.SeparatedListAdapter;
 
 /**
  * Created by IntelliJ IDEA.
@@ -39,7 +41,12 @@ public class ActiveChatsFragment extends Fragment
 
         listView = (ListView) view.findViewById(R.id.activeChatsList);
 
-        ActiveChatsAdapter itemAdapter = new ActiveChatsAdapter(this.getActivity());
+        SeparatedListAdapter itemAdapter = new SeparatedListAdapter(this.getActivity());
+
+        itemAdapter.addSection("Active Chats", new ActiveChatsAdapter(this.getActivity()));
+
+        itemAdapter.addSection("Recent List", new FavouriteContactsAdapter(this.getActivity()));
+
 
         listView.setAdapter(itemAdapter);
 
