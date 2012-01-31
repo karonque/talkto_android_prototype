@@ -36,7 +36,7 @@ public final class AccountDetailActivity extends Activity
         switch (item.getItemId())
         {
             case R.id.menu_contacts:
-                startActivity(ContactsActivity.class);
+                startActivity(ContactsFragmentActivity.class);
             default:
                 return true;
 

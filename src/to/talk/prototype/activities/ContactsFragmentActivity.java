@@ -1,9 +1,9 @@
 package to.talk.prototype.activities;
 
 import android.app.ActionBar;
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -11,7 +11,7 @@ import to.talk.prototype.R;
 import to.talk.prototype.listeners.ActionBarTabListener;
 
 
-public final class ContactsActivity extends Activity
+public final class ContactsFragmentActivity extends FragmentActivity
 {
     @Override
     public void onCreate(Bundle savedInstanceState)
