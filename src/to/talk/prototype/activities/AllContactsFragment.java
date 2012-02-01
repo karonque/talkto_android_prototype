@@ -30,8 +30,8 @@ public class AllContactsFragment extends Fragment
             return view;
         }
 
-        view =  inflater.inflate(R.layout.all_contacts_view, container, false);
-        listView = (ListView) view.findViewById(R.id.allContactsList);
+        view =  inflater.inflate(R.layout.contacts_view, container, false);
+        listView = (ListView) view.findViewById(R.id.contactsList);
 
         SeparatedListAdapter itemAdapter = new SeparatedListAdapter(this.getActivity());
         itemAdapter.addSection("Favourites", new FavouriteContactsAdapter(this.getActivity()));
