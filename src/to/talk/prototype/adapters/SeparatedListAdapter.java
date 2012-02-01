@@ -17,7 +17,6 @@ public class SeparatedListAdapter extends BaseAdapter
 
     public final Map<String, Adapter> sections = new LinkedHashMap<String, Adapter>();
     public final ArrayAdapter<String> headers;
-    public final static int TYPE_SECTION_HEADER = 0;
 
     public SeparatedListAdapter(Context context)
     {
@@ -71,7 +70,7 @@ public class SeparatedListAdapter extends BaseAdapter
 
             if (position == 0)
             {
-                return TYPE_SECTION_HEADER;
+                return 0;
             }
             if (position < size)
             {
@@ -86,12 +85,12 @@ public class SeparatedListAdapter extends BaseAdapter
 
     public boolean isEnabled(int position)
     {
-        return (getItemViewType(position) != TYPE_SECTION_HEADER);
+        return (getItemViewType(position) != 0);
     }
 
     public View getView(int position, View convertView, ViewGroup parent)
     {
-        int sectionnum = 0;
+        int sectionNum = 0;
         for (Object section : this.sections.keySet())
         {
             Adapter adapter = sections.get(section);
@@ -99,7 +98,7 @@ public class SeparatedListAdapter extends BaseAdapter
 
             if (position == 0)
             {
-                return headers.getView(sectionnum, convertView, parent);
+                return headers.getView(sectionNum, convertView, parent);
             }
             if (position < size)
             {
@@ -107,7 +106,7 @@ public class SeparatedListAdapter extends BaseAdapter
             }
 
             position -= size;
-            sectionnum++;
+            sectionNum++;
         }
         return null;
     }
