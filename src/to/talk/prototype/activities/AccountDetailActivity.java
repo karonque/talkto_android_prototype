@@ -10,7 +10,8 @@ import android.widget.ListView;
 import to.talk.prototype.R;
 import to.talk.prototype.adapters.AccountItemAdapter;
 
-public final class AccountDetailActivity extends Activity
+public final class
+        AccountDetailActivity extends Activity
 {
 
     private ListView listView;
@@ -21,13 +22,10 @@ public final class AccountDetailActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.account_list);
 
-        listView = (ListView) findViewById(R.id.accountList);
-
         AccountItemAdapter itemAdapter = new AccountItemAdapter(this);
 
+        listView = (ListView) findViewById(R.id.accountList);
         listView.setAdapter(itemAdapter);
-
-
     }
 
     @Override

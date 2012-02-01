@@ -18,7 +18,6 @@ public class AllContactsFragment extends Fragment
     View view;
     private ListView listView;
 
-
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
         if(container == null)
@@ -32,17 +31,11 @@ public class AllContactsFragment extends Fragment
         }
 
         view =  inflater.inflate(R.layout.all_contacts_view, container, false);
-
         listView = (ListView) view.findViewById(R.id.allContactsList);
 
         SeparatedListAdapter itemAdapter = new SeparatedListAdapter(this.getActivity());
-
         itemAdapter.addSection("Favourites", new FavouriteContactsAdapter(this.getActivity()));
-
         itemAdapter.addSection("All Online", new AllContactsAdapter(this.getActivity()));
-
-
-
 
         listView.setAdapter(itemAdapter);
 

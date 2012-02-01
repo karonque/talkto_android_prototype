@@ -14,10 +14,10 @@ public class StartActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         //wait(3);
-        startAccountActivity();
+        startActivity();
     }
 
-    private void startAccountActivity()
+    private void startActivity()
     {
         Intent intent = new Intent(getApplicationContext(), ContactsFragmentActivity.class);
         startActivity(intent);

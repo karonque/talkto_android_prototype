@@ -42,11 +42,8 @@ public class ActiveChatsFragment extends Fragment
         listView = (ListView) view.findViewById(R.id.activeChatsList);
 
         SeparatedListAdapter itemAdapter = new SeparatedListAdapter(this.getActivity());
-
         itemAdapter.addSection("Active Chats", new ActiveChatsAdapter(this.getActivity()));
-
         itemAdapter.addSection("Recent List", new FavouriteContactsAdapter(this.getActivity()));
-
 
         listView.setAdapter(itemAdapter);
 

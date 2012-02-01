@@ -13,29 +13,28 @@ import to.talk.prototype.listeners.ActionBarTabListener;
 
 public final class ContactsFragmentActivity extends FragmentActivity
 {
+    ActionBar actionBar;
+    
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
 
-        ActionBar actionBar = getActionBar();
+        actionBar = getActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
         actionBar.setDisplayShowTitleEnabled(false);
-
-        ActionBar.Tab tab = actionBar.newTab()
-                .setText("Active Chats")
-                .setTabListener(new ActionBarTabListener(
-                        this, "activeChats", ActiveChatsFragment.class));
-        actionBar.addTab(tab);
-
-        tab = actionBar.newTab()
-                .setText("Contacts")
-                .setTabListener(new ActionBarTabListener(
-                        this, "allContacts", AllContactsFragment.class));
-        actionBar.addTab(tab);
-
+        actionBar.addTab(createTab("Active Chats","activeChats",ActiveChatsFragment.class));
+        actionBar.addTab(createTab("Contacts","allContacts",AllContactsFragment.class));
     }
 
+    private ActionBar.Tab createTab(String text, String tag, Class clz)
+    {
+        ActionBar.Tab tab = actionBar.newTab();
+        tab.setText(text);
+        tab.setTabListener(new ActionBarTabListener(this,tag,clz));
+        return tab;
+    }
+    
     @Override
     public boolean onOptionsItemSelected(MenuItem item)
     {
