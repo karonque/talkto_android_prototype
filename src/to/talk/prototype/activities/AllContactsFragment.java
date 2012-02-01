@@ -33,6 +33,7 @@ public class AllContactsFragment extends Fragment
         view =  inflater.inflate(R.layout.contacts_view, container, false);
         listView = (ListView) view.findViewById(R.id.contactsList);
 
+
         SeparatedListAdapter itemAdapter = new SeparatedListAdapter(this.getActivity());
         itemAdapter.addSection("Favourites", new FavouriteContactsAdapter(this.getActivity()));
         itemAdapter.addSection("All Online", new AllContactsAdapter(this.getActivity()));

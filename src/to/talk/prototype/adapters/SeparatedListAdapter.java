@@ -48,7 +48,9 @@ public class SeparatedListAdapter extends BaseAdapter
     {
         int total = 0;
         for (Adapter adapter : this.sections.values())
+        {
             total += adapter.getCount() + 1;
+        }
         return total;
     }
 
@@ -56,7 +58,9 @@ public class SeparatedListAdapter extends BaseAdapter
     {
         int total = 1;
         for (Adapter adapter : this.sections.values())
+        {
             total += adapter.getViewTypeCount();
+        }
         return total;
     }
 
