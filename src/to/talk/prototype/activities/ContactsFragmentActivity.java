@@ -1,13 +1,16 @@
 package to.talk.prototype.activities;
 
-import android.R;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.ActionBar;
-import to.talk.prototype.listeners.ActionBarTabListener;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.Menu;
+import android.view.MenuInflater;
+import to.talk.prototype.R;
 
 
-public final class ContactsFragmentActivity extends android.support.v4.app.FragmentActivity
+public final class ContactsFragmentActivity extends FragmentActivity implements ActionBar.TabListener
 {
 
     @Override
@@ -19,7 +22,7 @@ public final class ContactsFragmentActivity extends android.support.v4.app.Fragm
 
         getSupportFragmentManager()
                 .beginTransaction()
-                .add(R.id.content,allContactsFragment)
+                .add(android.R.id.content, allContactsFragment)
                 .commit();
 
 
@@ -32,7 +35,7 @@ public final class ContactsFragmentActivity extends android.support.v4.app.Fragm
     {
         ActionBar.Tab tab = getSupportActionBar().newTab();//actionBar.newTab();
         tab.setText(text);
-        tab.setTabListener(new ActionBarTabListener(this));
+        tab.setTabListener(this);
         return tab;
     }
 
@@ -58,14 +61,25 @@ public final class ContactsFragmentActivity extends android.support.v4.app.Fragm
     }
 
 
-   /* @Override
+    @Override
     public boolean onCreateOptionsMenu(Menu menu)
     {
         MenuInflater menuInflater =  getMenuInflater() ;
         menuInflater.inflate(R.menu.action_bar_contacts, menu);
         return super.onCreateOptionsMenu(menu);
-    }*/
+    }
 
+    public void onTabReselected(ActionBar.Tab tab, FragmentTransaction ft)
+    {
+    }
+
+    public void onTabSelected(ActionBar.Tab tab, FragmentTransaction ft)
+    {
+    }
+
+    public void onTabUnselected(ActionBar.Tab tab, FragmentTransaction ft)
+    {
+    }
 }
 
 

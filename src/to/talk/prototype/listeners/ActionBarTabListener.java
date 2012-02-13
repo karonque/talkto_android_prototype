@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.support.v4.app.ActionBar;
 import android.support.v4.app.Fragment;
 
-public class ActionBarTabListener  implements ActionBar.TabListener
+public class ActionBarTabListener
 {
     private Fragment mFragment;
     private final Activity mActivity;
@@ -40,6 +40,7 @@ public class ActionBarTabListener  implements ActionBar.TabListener
 
     public void onTabSelected(ActionBar.Tab tab, android.support.v4.app.FragmentTransaction ft)
     {
+
     }
 
     public void onTabUnselected(ActionBar.Tab tab, android.support.v4.app.FragmentTransaction ft)
