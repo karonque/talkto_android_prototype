@@ -1,41 +1,43 @@
 package to.talk.prototype.activities;
 
-import android.app.ActionBar;
+import android.R;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import to.talk.prototype.R;
+import android.support.v4.app.ActionBar;
 import to.talk.prototype.listeners.ActionBarTabListener;
 
 
-public final class ContactsFragmentActivity extends FragmentActivity
+public final class ContactsFragmentActivity extends android.support.v4.app.FragmentActivity
 {
-    ActionBar actionBar;
-    
+
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
 
-        actionBar = getActionBar();
-        actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
-        actionBar.setDisplayShowTitleEnabled(false);
-        actionBar.addTab(createTab("Active Chats","activeChats",ActiveChatsFragment.class));
-        actionBar.addTab(createTab("Contacts","allContacts",AllContactsFragment.class));
+        AllContactsFragment allContactsFragment = new AllContactsFragment();
+
+        getSupportFragmentManager()
+                .beginTransaction()
+                .add(R.id.content,allContactsFragment)
+                .commit();
+
+
+        getSupportActionBar().setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+        getSupportActionBar().addTab(getTab("ActiveChats"));
+        getSupportActionBar().addTab(getTab("Contacts"));
     }
 
-    private ActionBar.Tab createTab(String text, String tag, Class clz)
+    private ActionBar.Tab getTab(String text)
     {
-        ActionBar.Tab tab = actionBar.newTab();
+        ActionBar.Tab tab = getSupportActionBar().newTab();//actionBar.newTab();
         tab.setText(text);
-        tab.setTabListener(new ActionBarTabListener(this,tag,clz));
+        tab.setTabListener(new ActionBarTabListener(this));
         return tab;
     }
-    
-    @Override
+
+
+   /* @Override
     public boolean onOptionsItemSelected(MenuItem item)
     {
         switch (item.getItemId())
@@ -47,7 +49,7 @@ public final class ContactsFragmentActivity extends FragmentActivity
 
         }
     }
-
+*/
     private void startActivity(Class clz)
     {
         Intent intent = new Intent(getApplicationContext(), clz);
@@ -56,13 +58,13 @@ public final class ContactsFragmentActivity extends FragmentActivity
     }
 
 
-    @Override
+   /* @Override
     public boolean onCreateOptionsMenu(Menu menu)
     {
         MenuInflater menuInflater =  getMenuInflater() ;
         menuInflater.inflate(R.menu.action_bar_contacts, menu);
         return super.onCreateOptionsMenu(menu);
-    }
+    }*/
 
 }
 

@@ -1,26 +1,20 @@
 package to.talk.prototype.listeners;
 
-import android.app.ActionBar;
 import android.app.Activity;
-import android.app.Fragment;
-import android.app.FragmentTransaction;
+import android.support.v4.app.ActionBar;
+import android.support.v4.app.Fragment;
 
-public class ActionBarTabListener implements ActionBar.TabListener
+public class ActionBarTabListener  implements ActionBar.TabListener
 {
     private Fragment mFragment;
     private final Activity mActivity;
-    private final String mTag;
-    private final Class mClass;
 
-    public ActionBarTabListener(Activity activity, String tag, Class clz)
+    public ActionBarTabListener(Activity activity)
     {
         mActivity = activity;
-        mTag = tag;
-        mClass = clz;
     }
 
-
-    public void onTabSelected(ActionBar.Tab tab, FragmentTransaction ft)
+   /* public void onTabSelected(ActionBar.Tab tab, FragmentTransaction ft)
     {
         if (mFragment == null)
         {
@@ -39,9 +33,18 @@ public class ActionBarTabListener implements ActionBar.TabListener
             ft.detach(mFragment);
         }
     }
-
-    public void onTabReselected(ActionBar.Tab tab, FragmentTransaction ft)
+*/
+    public void onTabReselected(ActionBar.Tab tab, android.support.v4.app.FragmentTransaction ft)
     {
+    }
+
+    public void onTabSelected(ActionBar.Tab tab, android.support.v4.app.FragmentTransaction ft)
+    {
+    }
+
+    public void onTabUnselected(ActionBar.Tab tab, android.support.v4.app.FragmentTransaction ft)
+    {
+
     }
 }
 

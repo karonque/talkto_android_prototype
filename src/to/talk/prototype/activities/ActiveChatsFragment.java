@@ -11,13 +11,6 @@ import to.talk.prototype.adapters.ActiveChatsAdapter;
 import to.talk.prototype.adapters.FavouriteContactsAdapter;
 import to.talk.prototype.adapters.SeparatedListAdapter;
 
-/**
- * Created by IntelliJ IDEA.
- * User: pawan
- * Date: 1/26/12
- * Time: 4:50 PM
- * To change this template use File | Settings | File Templates.
- */
 public class ActiveChatsFragment extends Fragment
 {
 
