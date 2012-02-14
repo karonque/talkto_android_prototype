@@ -1,4 +1,5 @@
 <resources>
+    <color name="actionbar_title_color">#224894</color>
     <color name="chatlist_unread_count_text">#ffffff</color>
     <color name="chatlist_unread_count_text_shadow">#979ba0</color>
     <color name="tab_active">#34495c</color>
