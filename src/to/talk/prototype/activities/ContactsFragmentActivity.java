@@ -1,6 +1,7 @@
 package to.talk.prototype.activities;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.ActionBar;
 import android.support.v4.app.FragmentActivity;
@@ -8,6 +9,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.Menu;
 import android.view.MenuInflater;
 import to.talk.prototype.R;
+import to.talk.prototype.listeners.ActionBarTabListenerICS;
 
 
 public final class ContactsFragmentActivity extends FragmentActivity implements ActionBar.TabListener
@@ -17,7 +19,19 @@ public final class ContactsFragmentActivity extends FragmentActivity implements 
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+        final boolean IS_ICS = Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH;
+        if(IS_ICS)
+        {
+            setupICS();
+        }
+        else
+        {
+            setupHoneycomb();
+        }
+    }
 
+    private void setupHoneycomb()
+    {
         AllContactsFragment allContactsFragment = new AllContactsFragment();
 
         getSupportFragmentManager()
@@ -31,6 +45,23 @@ public final class ContactsFragmentActivity extends FragmentActivity implements 
         getSupportActionBar().addTab(getTab("Contacts"));
     }
 
+
+    private void setupICS()
+    {
+        android.app.ActionBar actionBar = getActionBar();
+        actionBar.setNavigationMode(android.app.ActionBar.NAVIGATION_MODE_TABS);
+        actionBar.setDisplayShowTitleEnabled(false);
+
+        android.app.ActionBar.Tab tab = actionBar.newTab()
+                .setText("Active Chats")
+                .setTabListener(new ActionBarTabListenerICS(this, "activeChats", ActiveChatsFragment.class));
+        actionBar.addTab(tab);
+
+        tab = actionBar.newTab()
+                .setText("Contacts")
+                .setTabListener(new ActionBarTabListenerICS(this, "allContacts", AllContactsFragment.class));
+        actionBar.addTab(tab);
+    }
     private ActionBar.Tab getTab(String text)
     {
         ActionBar.Tab tab = getSupportActionBar().newTab();//actionBar.newTab();
