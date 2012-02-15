@@ -19,12 +19,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Vector;
 
-public class RosterPagerFragmentActivityWithTabs extends ActionBarActivity implements TabHost.OnTabChangeListener, ViewPager.OnPageChangeListener
+public class ContactsActivity extends ActionBarActivity implements TabHost.OnTabChangeListener, ViewPager.OnPageChangeListener
 {
 
     private TabHost mTabHost;
     private ViewPager mViewPager;
-    private HashMap<String, TabInfo> mapTabInfo = new HashMap<String, RosterPagerFragmentActivityWithTabs.TabInfo>();
+    private HashMap<String, TabInfo> mapTabInfo = new HashMap<String, ContactsActivity.TabInfo>();
     private PagerAdapter mPagerAdapter;
 
     private class TabInfo
@@ -99,15 +99,15 @@ public class RosterPagerFragmentActivityWithTabs extends ActionBarActivity imple
         mTabHost = (TabHost) findViewById(android.R.id.tabhost);
         mTabHost.setup();
         TabInfo tabInfo = null;
-        RosterPagerFragmentActivityWithTabs.AddTab(this, this.mTabHost, this.mTabHost.newTabSpec("Tab1").setIndicator("Tab 1"), (tabInfo = new TabInfo("Contacts", AllContactsFragment.class, args)));
+        ContactsActivity.AddTab(this, this.mTabHost, this.mTabHost.newTabSpec("Tab1").setIndicator("Tab 1"), (tabInfo = new TabInfo("Contacts", AllContactsFragment.class, args)));
         this.mapTabInfo.put(tabInfo.tag, tabInfo);
-        RosterPagerFragmentActivityWithTabs.AddTab(this, this.mTabHost, this.mTabHost.newTabSpec("Tab2").setIndicator("Tab 2"), (tabInfo = new TabInfo("ActiveChats", ActiveChatsFragment.class, args)));
+        ContactsActivity.AddTab(this, this.mTabHost, this.mTabHost.newTabSpec("Tab2").setIndicator("Tab 2"), (tabInfo = new TabInfo("ActiveChats", ActiveChatsFragment.class, args)));
         this.mapTabInfo.put(tabInfo.tag, tabInfo);
 
         mTabHost.setOnTabChangedListener(this);
     }
 
-    private static void AddTab(RosterPagerFragmentActivityWithTabs activity, TabHost tabHost, TabHost.TabSpec tabSpec, TabInfo tabInfo)
+    private static void AddTab(ContactsActivity activity, TabHost tabHost, TabHost.TabSpec tabSpec, TabInfo tabInfo)
     {
         tabSpec.setContent(activity.new TabFactory(activity));
         tabHost.addTab(tabSpec);

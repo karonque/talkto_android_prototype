@@ -16,10 +16,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dfe57ec-af7d-4c40-a4eb-821548c2b961" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/RosterPagerFragmentActivityWithTabs.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragmentActivity.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragmentActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarActivity.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarActivity.java" />
     </list>
     <ignored path="talkto_android_prototype.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,7 +79,7 @@
       <file leaf-file-name="RosterPagerFragmentActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/RosterPagerFragmentActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
+            <state line="17" column="26" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2217#2227#0" expanded="true" />
@@ -89,15 +88,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RosterPagerFragmentActivityWithTabs.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/RosterPagerFragmentActivityWithTabs.java">
+      <file leaf-file-name="ContactsActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="98" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.4204947">
+            <state line="21" column="13" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#900#953#0" expanded="true" />
-                <element signature="e#2375#2385#0" expanded="true" />
+                <element signature="e#881#915#0" expanded="true" />
+                <element signature="e#2337#2347#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActiveChatsFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="71" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,16 +131,16 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="103" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.0">
+            <state line="23" column="0" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactsFragmentActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ContactsFragmentActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragmentActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="11" selection-start="1188" selection-end="1355" vertical-scroll-proportion="0.0">
+            <state line="14" column="1" selection-start="442" selection-end="442" vertical-scroll-proportion="0.34587812">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#startActivity#0;class#ContactsFragmentActivity#0" expanded="false" />
@@ -182,9 +190,9 @@
         <option value="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelper.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperBase.java" />
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragmentActivity.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarActivity.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/RosterPagerFragmentActivityWithTabs.java" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragmentActivity.java" />
       </list>
     </option>
   </component>
@@ -658,13 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="71" selection-start="197" selection-end="197" vertical-scroll-proportion="-0.03626943">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/SimpleMenuItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="108" column="0" selection-start="2172" selection-end="2172" vertical-scroll-proportion="0.33333334">
@@ -718,18 +719,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="103" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.0">
+        <state line="23" column="0" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/RosterPagerFragmentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2217#2227#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,25 +747,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/RosterPagerFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="26" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2217#2227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="71" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="13" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#881#915#0" expanded="true" />
+            <element signature="e#2337#2347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragmentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="11" selection-start="1188" selection-end="1355" vertical-scroll-proportion="0.0">
+        <state line="14" column="1" selection-start="442" selection-end="442" vertical-scroll-proportion="0.34587812">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#startActivity#0;class#ContactsFragmentActivity#0" expanded="false" />
             <element signature="method#ICSTabImplementation#0;class#ContactsFragmentActivity#0" expanded="false" />
             <element signature="method#createTab#0;class#ContactsFragmentActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/RosterPagerFragmentActivityWithTabs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="98" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.4204947">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#900#953#0" expanded="true" />
-            <element signature="e#2375#2385#0" expanded="true" />
           </folding>
         </state>
       </provider>
