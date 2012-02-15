@@ -1,6 +1,5 @@
 package to.talk.prototype.activities;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -9,9 +8,9 @@ import android.view.MenuItem;
 import android.widget.ListView;
 import to.talk.prototype.R;
 import to.talk.prototype.adapters.AccountItemAdapter;
+import to.talk.prototype.compatibility.actionbar.ActionBarActivity;
 
-public final class
-        AccountDetailActivity extends Activity
+public final class AccountDetailActivity extends ActionBarActivity
 {
 
     private ListView listView;

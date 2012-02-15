@@ -23,7 +23,7 @@ public final class ContactsFragmentActivity extends ActionBarActivity
 
         final boolean ICS = Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH;
 
-        if (ICS)
+        /*if (ICS)
         {
             actionBar = getActionBar();
             actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
@@ -34,7 +34,7 @@ public final class ContactsFragmentActivity extends ActionBarActivity
         else
         {
 
-        }
+        }*/
     }
 
     private ActionBar.Tab createTab(String text, String tag, Class clz)
