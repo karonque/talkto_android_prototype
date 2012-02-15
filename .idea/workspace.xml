@@ -16,194 +16,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dfe57ec-af7d-4c40-a4eb-821548c2b961" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/actionbar_compat_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/actionbar_compat_item_focused.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/actionbar_compat_item_pressed.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/actionbar_compat.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/actionbar_indeterminate_progress.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/contacts_tabs_viewpager.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/attrs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/ids.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/to/talk/prototype/adapters/PagerAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperHoneycomb.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperICS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/SimpleMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/SimpleMenuItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/to/talk/prototype/tabs/TabDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/to/talk/prototype/tabs/TabFactory.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-nodpi/abs__action_item_divider.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__ab_solid_dark_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__ab_stacked_transparent_dark_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__ab_stacked_transparent_light_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__cab_background_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__cab_background_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__cab_ic_close_focused_holo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__cab_ic_close_holo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__cab_ic_close_normal_holo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__cab_ic_close_pressed_holo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__ic_ab_back_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__ic_ab_back_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__item_background_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__item_background_holo_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__list_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__list_longpressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__list_pressed_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__list_pressed_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__list_selector_background_transition_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__list_selector_background_transition_holo_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__list_selector_disabled_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__list_selector_disabled_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__spinner_background_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__spinner_background_holo_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__spinner_default_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__spinner_default_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__spinner_disabled_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__spinner_disabled_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__spinner_focused_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__spinner_focused_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__spinner_pressed_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__spinner_pressed_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__tab_indicator_holo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__tab_selected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__tab_selected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__tab_selected_pressed_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__tab_selected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__tab_unselected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__tab_unselected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__tab_unselected_pressed_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/abs__tab_unselected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/abs__action_bar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/abs__action_bar_home.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/abs__action_bar_inline.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/abs__action_bar_tab_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/abs__action_bar_title_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/abs__action_menu_item_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/abs__action_menu_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/abs__screen_action_bar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/abs__screen_action_bar_overlay.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/abs__screen_simple.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/abs__simple_spinner_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/accessibilityservice/AccessibilityServiceInfoCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/accessibilityservice/AccessibilityServiceInfoCompatIcs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/app/ActionBar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/app/ActivityCompatHoneycomb.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/app/BackStackRecord.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/app/DialogFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/app/Fragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/app/FragmentActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/app/FragmentManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/app/FragmentPagerAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/app/FragmentStatePagerAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/app/FragmentTransaction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/app/HCSparseArray.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/app/ListFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/app/LoaderManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/app/NoSaveStateFrameLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/app/ServiceCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/app/SuperNotCalledException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/app/SupportActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/content/AsyncTaskLoader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/content/CursorLoader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/content/IntentCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/content/Loader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/content/LocalBroadcastManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/content/ModernAsyncTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/content/pm/ActivityInfoCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/database/DatabaseUtilsCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/os/ParcelableCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/os/ParcelableCompatCreatorCallbacks.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/os/ParcelableCompatHoneycombMR2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/util/DebugUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/util/LogWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/util/LruCache.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/util/TimeUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/AccessibilityDelegateCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/AccessibilityDelegateCompatIcs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/ActionMode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/KeyEventCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/KeyEventCompatHoneycomb.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/Menu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/MenuCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/MenuItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/MenuItemCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/MenuItemCompatHoneycomb.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/MotionEventCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/MotionEventCompatEclair.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/PagerAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/PagerTitleStrip.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/SubMenu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/VelocityTrackerCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/VelocityTrackerCompatHoneycomb.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/ViewCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/ViewCompatGingerbread.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/ViewCompatICS.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/ViewConfigurationCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/ViewConfigurationCompatFroyo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/ViewGroupCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/ViewGroupCompatIcs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/ViewPager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/Window.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/accessibility/AccessibilityEventCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/accessibility/AccessibilityEventCompatIcs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/accessibility/AccessibilityManagerCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/accessibility/AccessibilityManagerCompatIcs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/accessibility/AccessibilityNodeInfoCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/accessibility/AccessibilityNodeInfoCompatIcs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/accessibility/AccessibilityRecordCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/view/accessibility/AccessibilityRecordCompatIcs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/widget/CursorAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/widget/CursorFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/widget/EdgeEffectCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/widget/EdgeEffectCompatIcs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/widget/ResourceCursorAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/widget/SearchViewCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/widget/SearchViewCompatHoneycomb.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/android/support/v4/widget/SimpleCursorAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/app/ActionBarICS.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/app/ActionBarImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/app/ActionBarWrapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/app/SherlockActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/view/View_HasStateListenerSupport.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/view/View_OnAttachStateChangeListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/view/menu/ActionMenu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/view/menu/ActionMenuItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/view/menu/ActionMenuItemView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/view/menu/ActionMenuPresenter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/view/menu/ActionMenuView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/view/menu/BaseMenuPresenter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/view/menu/MenuBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/view/menu/MenuInflaterImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/view/menu/MenuInflaterWrapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/view/menu/MenuItemImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/view/menu/MenuItemWrapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/view/menu/MenuPresenter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/view/menu/MenuView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/view/menu/MenuWrapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/view/menu/SubMenuBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/view/menu/SubMenuWrapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/widget/ActionBarContainer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/widget/ActionBarView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/widget/IcsLinearLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/actionbarsherlock/internal/widget/ScrollingTextView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragmentActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/to/talk/prototype/listeners/ActionBarTabListener.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/layout/contacts_view.xml" afterPath="$PROJECT_DIR$/res/layout/contacts_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/color/abs__item_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/color/abs__tab_text_color_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/color/abs__tab_text_color_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/abs__attrs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/abs__config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/abs__dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/abs__ids.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/abs__styles.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/to/talk/prototype/R.java" afterPath="$PROJECT_DIR$/gen/to/talk/prototype/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/menu/action_bar_accounts.xml" afterPath="$PROJECT_DIR$/res/menu/action_bar_accounts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/menu/action_bar_contacts.xml" afterPath="$PROJECT_DIR$/res/menu/action_bar_contacts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/colors.xml" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/AccountDetailActivity.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/AccountDetailActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsFragment.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/StartActivity.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/StartActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/talkto_android_prototype.iml" afterPath="$PROJECT_DIR$/talkto_android_prototype.iml" />
     </list>
     <ignored path="talkto_android_prototype.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -270,10 +93,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactsActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ContactsActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="56" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.33730835">
+            <state line="40" column="56" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colors.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -290,10 +122,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="120" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
+            <state line="12" column="110" selection-start="572" selection-end="572" vertical-scroll-proportion="0.31088084">
               <folding />
             </state>
           </provider>
@@ -324,12 +156,12 @@
         <option value="$PROJECT_DIR$/src/com/actionbarsherlock/internal/app/ActionBarImpl.java" />
         <option value="$PROJECT_DIR$/src/com/actionbarsherlock/internal/widget/ActionBarView.java" />
         <option value="$PROJECT_DIR$/src/com/actionbarsherlock/internal/view/menu/ActionMenuPresenter.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsFragment.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsFragment.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/listeners/ActionBarTabListenerICS.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragmentActivity.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/listeners/ActionBarTabListener.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -444,6 +276,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="activities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="talkto_android_prototype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="talkto_android_prototype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -688,7 +538,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34901366" sideWeight="0.36741215" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34901366" sideWeight="0.66134185" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30670926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.63258785" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -756,11 +606,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/values/abs__styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="1689" selection-end="1689" vertical-scroll-proportion="0.20848057" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -787,13 +632,6 @@
         <state line="90" column="33" selection-start="4027" selection-end="4027" vertical-scroll-proportion="0.32941177" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="120" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="86" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0">
@@ -810,16 +648,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/contacts_tabs_viewpager.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="56" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.33730835">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/contacts_tabs_viewpager.xml">
+    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="56" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="110" selection-start="572" selection-end="572" vertical-scroll-proportion="0.31088084">
           <folding />
         </state>
       </provider>
