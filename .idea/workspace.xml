@@ -17,7 +17,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2dfe57ec-af7d-4c40-a4eb-821548c2b961" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/to/talk/prototype/R.java" afterPath="$PROJECT_DIR$/gen/to/talk/prototype/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsActivity.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsActivity.java" />
     </list>
     <ignored path="talkto_android_prototype.iws" />
@@ -79,46 +78,71 @@
       <file leaf-file-name="ContactsActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="67" selection-start="483" selection-end="483" vertical-scroll-proportion="0.3321976">
+            <state line="20" column="47" selection-start="649" selection-end="649" vertical-scroll-proportion="0.21201414">
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#859#878#0" expanded="true" />
-                <element signature="e#1589#1599#0" expanded="true" />
+                <element signature="e#1583#1593#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActionBarTabListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/listeners/ActionBarTabListener.java">
+      <file leaf-file-name="ActionBarActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+            <state line="9" column="69" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActionBarHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="86" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacts_list.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/contacts_list.xml">
+      <file leaf-file-name="AllContactsFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="14" column="13" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActiveChatsFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="66" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountDetailActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AccountDetailActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="46" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <file leaf-file-name="StartActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/StartActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="account_list.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/account_list.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="21" column="66" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -227,10 +251,6 @@
               <option name="myItemId" value="prototype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tabs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -250,25 +270,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="listeners" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="talkto_android_prototype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="talkto_android_prototype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prototype" />
+              <option name="myItemId" value="activities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -563,46 +565,39 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperBase.java">
+    <entry file="file://$USER_HOME$/local/android-sdk-linux/platforms/android-15/data/res/values/ids.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="51" selection-start="473" selection-end="473" vertical-scroll-proportion="0.103626944">
+        <state line="39" column="24" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.32166666">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsFragment.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/contacts_tabs_viewpager.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="71" selection-start="197" selection-end="197" vertical-scroll-proportion="0.025906736">
+        <state line="16" column="46" selection-start="683" selection-end="683" vertical-scroll-proportion="0.41450778">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/StartActivity.java">
+    <entry file="jar://$USER_HOME$/local/android-sdk-linux/platforms/android-15/android.jar!/android/widget/TabHost.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="76" selection-start="522" selection-end="522" vertical-scroll-proportion="0.45">
+        <state line="70" column="28" selection-start="3055" selection-end="3055" vertical-scroll-proportion="0.6024735">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AccountDetailActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/tabs/TabDetail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="46" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.35833332">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="57" selection-start="244" selection-end="244" vertical-scroll-proportion="0.175">
+        <state line="19" column="11" selection-start="395" selection-end="395" vertical-scroll-proportion="0.475">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/account_list.xml">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/listeners/ActionBarTabListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="7" column="13" selection-start="180" selection-end="180" vertical-scroll-proportion="0.1">
           <folding />
         </state>
       </provider>
@@ -621,58 +616,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/local/android-sdk-linux/platforms/android-15/data/res/values/ids.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/account_list.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="24" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.32166666">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/contacts_tabs_viewpager.xml">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="46" selection-start="683" selection-end="683" vertical-scroll-proportion="0.41450778">
+        <state line="14" column="13" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="66" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AccountDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="46" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/listeners/ActionBarTabListener.java">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/StartActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/local/android-sdk-linux/platforms/android-15/android.jar!/android/widget/TabHost.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="28" selection-start="3055" selection-end="3055" vertical-scroll-proportion="0.6024735">
+        <state line="21" column="66" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/tabs/TabFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="1" selection-start="630" selection-end="630" vertical-scroll-proportion="0.8031088">
+        <state line="18" column="11" selection-start="386" selection-end="386" vertical-scroll-proportion="0.46632123">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/tabs/TabDetail.java">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="11" selection-start="395" selection-end="395" vertical-scroll-proportion="0.475">
+        <state line="9" column="69" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="86" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="67" selection-start="483" selection-end="483" vertical-scroll-proportion="0.3321976">
+        <state line="20" column="47" selection-start="649" selection-end="649" vertical-scroll-proportion="0.21201414">
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#859#878#0" expanded="true" />
-            <element signature="e#1589#1599#0" expanded="true" />
+            <element signature="e#1583#1593#0" expanded="true" />
           </folding>
         </state>
       </provider>

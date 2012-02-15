@@ -30,7 +30,7 @@ public class ContactsActivity extends ActionBarActivity implements TabHost.OnTab
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.contacts_tabs_viewpager);
-        this.initialiseTabHost(savedInstanceState);
+        this.initTabHost(savedInstanceState);
         if (savedInstanceState != null)
         {
             mTabHost.setCurrentTabByTag(savedInstanceState.getString("currentTab"));
@@ -55,7 +55,7 @@ public class ContactsActivity extends ActionBarActivity implements TabHost.OnTab
         this.mViewPager.setOnPageChangeListener(this);
     }
 
-    private void initialiseTabHost(Bundle args)
+    private void initTabHost(Bundle args)
     {
         mTabHost = (TabHost) findViewById(android.R.id.tabhost);
         mTabHost.setup();
