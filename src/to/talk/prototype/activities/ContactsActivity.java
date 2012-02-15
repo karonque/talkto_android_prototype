@@ -66,7 +66,7 @@ public class ContactsActivity extends ActionBarActivity implements TabHost.OnTab
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tabs_viewpager);
+        setContentView(R.layout.contacts_tabs_viewpager);
         this.initialiseTabHost(savedInstanceState);
         if (savedInstanceState != null)
         {
@@ -79,6 +79,7 @@ public class ContactsActivity extends ActionBarActivity implements TabHost.OnTab
     {
         outState.putString("currentTab", mTabHost.getCurrentTabTag());
         super.onSaveInstanceState(outState);
+
     }
 
     private void initViewPager()

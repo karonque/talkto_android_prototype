@@ -30,7 +30,7 @@ public class AllContactsFragment extends Fragment
             return view;
         }
 
-        view =  inflater.inflate(R.layout.contacts_view, container, false);
+        view =  inflater.inflate(R.layout.contacts_list, container, false);
         listView = (ListView) view.findViewById(R.id.contactsList);
 
 

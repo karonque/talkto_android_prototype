@@ -287,10 +287,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int actionbar_indeterminate_progress=0x7f030003;
         public static final int active_chats_view=0x7f030004;
         public static final int contacts_item=0x7f030005;
-        public static final int contacts_view=0x7f030006;
+        public static final int contacts_list =0x7f030006;
         public static final int list_view_header=0x7f030007;
         public static final int main=0x7f030008;
-        public static final int tabs_viewpager=0x7f030009;
+        public static final int contacts_tabs_viewpager =0x7f030009;
     }
     public static final class menu {
         public static final int action_bar_accounts=0x7f090000;
