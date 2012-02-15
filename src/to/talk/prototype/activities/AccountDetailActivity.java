@@ -33,7 +33,7 @@ public final class AccountDetailActivity extends ActionBarActivity
         switch (item.getItemId())
         {
             case R.id.menu_contacts:
-                startActivity(ContactsFragmentActivity.class);
+                startActivity(ContactsActivity.class);
             default:
                 return true;
 
