@@ -1,6 +1,5 @@
 package to.talk.prototype.activities;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -8,12 +7,12 @@ import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.TabHost;
-import android.widget.TabHost.TabContentFactory;
 import to.talk.prototype.R;
 import to.talk.prototype.adapters.PagerAdapter;
 import to.talk.prototype.compatibility.actionbar.ActionBarActivity;
+import to.talk.prototype.tabs.TabDetail;
+import to.talk.prototype.tabs.TabFactory;
 
 import java.util.HashMap;
 import java.util.List;
@@ -24,44 +23,8 @@ public class ContactsActivity extends ActionBarActivity implements TabHost.OnTab
 
     private TabHost mTabHost;
     private ViewPager mViewPager;
-    private HashMap<String, TabInfo> mapTabInfo = new HashMap<String, ContactsActivity.TabInfo>();
+    private HashMap<String, TabDetail> mapTabInfo = new HashMap<String, TabDetail>();
     private PagerAdapter mPagerAdapter;
-
-    private class TabInfo
-    {
-        private String tag;
-        private Class<?> clss;
-        private Bundle args;
-        private Fragment fragment;
-
-        TabInfo(String tag, Class<?> clazz, Bundle args)
-        {
-            this.tag = tag;
-            this.clss = clazz;
-            this.args = args;
-        }
-
-    }
-
-    class TabFactory implements TabContentFactory
-    {
-
-        private final Context mContext;
-
-        public TabFactory(Context context)
-        {
-            mContext = context;
-        }
-
-        public View createTabContent(String tag)
-        {
-            View v = new View(mContext);
-            v.setMinimumWidth(0);
-            v.setMinimumHeight(0);
-            return v;
-        }
-
-    }
 
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -79,17 +42,14 @@ public class ContactsActivity extends ActionBarActivity implements TabHost.OnTab
     {
         outState.putString("currentTab", mTabHost.getCurrentTabTag());
         super.onSaveInstanceState(outState);
-
     }
 
     private void initViewPager()
     {
-
         List<Fragment> fragments = new Vector<Fragment>();
         fragments.add(Fragment.instantiate(this, AllContactsFragment.class.getName()));
         fragments.add(Fragment.instantiate(this, ActiveChatsFragment.class.getName()));
         this.mPagerAdapter = new PagerAdapter(super.getSupportFragmentManager(), fragments);
-        //
         this.mViewPager = (ViewPager) super.findViewById(R.id.viewpager);
         this.mViewPager.setAdapter(this.mPagerAdapter);
         this.mViewPager.setOnPageChangeListener(this);
@@ -99,18 +59,22 @@ public class ContactsActivity extends ActionBarActivity implements TabHost.OnTab
     {
         mTabHost = (TabHost) findViewById(android.R.id.tabhost);
         mTabHost.setup();
-        TabInfo tabInfo = null;
-        ContactsActivity.AddTab(this, this.mTabHost, this.mTabHost.newTabSpec("activeChats").setIndicator("Active Chats"), (tabInfo = new TabInfo("Contacts", AllContactsFragment.class, args)));
-        this.mapTabInfo.put(tabInfo.tag, tabInfo);
-        ContactsActivity.AddTab(this, this.mTabHost, this.mTabHost.newTabSpec("allContacts").setIndicator("All Contacts"), (tabInfo = new TabInfo("ActiveChats", ActiveChatsFragment.class, args)));
-        this.mapTabInfo.put(tabInfo.tag, tabInfo);
+
+        TabDetail contactsTabDetail = new TabDetail("Contacts", AllContactsFragment.class, args);
+        TabDetail activeChatsDetail = new TabDetail("ActiveChats", ActiveChatsFragment.class, args);
+
+        ContactsActivity.AddTab(this, this.mTabHost, this.mTabHost.newTabSpec("activeChats").setIndicator("Active Chats"), contactsTabDetail);
+        this.mapTabInfo.put(contactsTabDetail.getTag(), contactsTabDetail);
+
+        ContactsActivity.AddTab(this, this.mTabHost, this.mTabHost.newTabSpec("allContacts").setIndicator("All Contacts"), activeChatsDetail);
+        this.mapTabInfo.put(activeChatsDetail.getTag(), activeChatsDetail);
 
         mTabHost.setOnTabChangedListener(this);
     }
 
-    private static void AddTab(ContactsActivity activity, TabHost tabHost, TabHost.TabSpec tabSpec, TabInfo tabInfo)
+    private static void AddTab(ContactsActivity activity, TabHost tabHost, TabHost.TabSpec tabSpec, TabDetail tabInfo)
     {
-        tabSpec.setContent(activity.new TabFactory(activity));
+        tabSpec.setContent(new TabFactory(activity));
         tabHost.addTab(tabSpec);
     }
 
