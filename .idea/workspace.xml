@@ -16,10 +16,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dfe57ec-af7d-4c40-a4eb-821548c2b961" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/RosterPagerFragmentActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragmentActivity.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/AccountDetailActivity.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/AccountDetailActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/StartActivity.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/StartActivity.java" />
     </list>
     <ignored path="talkto_android_prototype.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -117,25 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0">
+            <state line="21" column="0" selection-start="918" selection-end="918" vertical-scroll-proportion="0.54404145">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactsFragmentActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragmentActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="1" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#startActivity#0;class#ContactsFragmentActivity#0" expanded="false" />
-                <element signature="method#ICSTabImplementation#0;class#ContactsFragmentActivity#0" expanded="false" />
-                <element signature="method#createTab#0;class#ContactsFragmentActivity#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -149,10 +134,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountDetailActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AccountDetailActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AccountDetailActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="46" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.38530466">
+            <state line="35" column="46" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -193,13 +178,13 @@
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/ActionBarActivityWithTabs.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarActivityWithTabs.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelper.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperBase.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarActivity.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/RosterPagerFragmentActivityWithTabs.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragmentActivity.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/StartActivity.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/AccountDetailActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -710,13 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="51" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
@@ -758,18 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragmentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#startActivity#0;class#ContactsFragmentActivity#0" expanded="false" />
-            <element signature="method#ICSTabImplementation#0;class#ContactsFragmentActivity#0" expanded="false" />
-            <element signature="method#createTab#0;class#ContactsFragmentActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/StartActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="76" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
@@ -779,7 +745,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AccountDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="46" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.38530466">
+        <state line="35" column="46" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="918" selection-end="918" vertical-scroll-proportion="0.54404145">
           <folding />
         </state>
       </provider>
