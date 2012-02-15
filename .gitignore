@@ -9,8 +9,12 @@ inspectionProfiles/
 .idea/dictionaries
 .idea/scopes/
 .idea/codeStyleSettings.xml
+.idea/workspace.xml
 *.pyc
 *.swp
 bin/
 *.apk
+*.log
 *~
+coverage-report/
+

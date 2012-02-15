@@ -12,7 +12,7 @@
           android:title="Contacts"
           android:icon="@drawable/ic_tab_contacts"
           android:orderInCategory="1"
-          android:showAsAction="ifRoom|collapseActionView"
+          android:showAsAction="always"
             />
 
 
