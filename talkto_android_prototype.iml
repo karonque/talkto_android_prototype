@@ -30,10 +30,7 @@
       <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Android 4.0 Platform" jdkType="Android SDK" />
-<<<<<<< HEAD
-=======
     <orderEntry type="library" exported="" name="android-support-v4" level="project" />
->>>>>>> compatibility
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
