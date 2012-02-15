@@ -1,19 +1,3 @@
-/*
- * Copyright 2011 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package to.talk.prototype.compatibility.actionbar;
 
 import android.app.Activity;
@@ -81,14 +65,12 @@ public class ActionBarHelperBase extends ActionBarHelper
                 0, ViewGroup.LayoutParams.FILL_PARENT);
         springLayoutParams.weight = 1;
 
-        // Add Home button
         SimpleMenu tempMenu = new SimpleMenu(mActivity);
         SimpleMenuItem homeItem = new SimpleMenuItem(
                 tempMenu, android.R.id.home, 0, mActivity.getString(R.string.app_name));
         homeItem.setIcon(R.drawable.app_icon);
         addActionItemCompatFromMenuItem(homeItem);
 
-        // Add title text
         TextView titleText = new TextView(mActivity, null, R.attr.actionbarCompatTitleStyle);
         titleText.setLayoutParams(springLayoutParams);
         titleText.setText(mActivity.getTitle());
@@ -115,7 +97,6 @@ public class ActionBarHelperBase extends ActionBarHelper
     @Override
     public boolean onCreateOptionsMenu(Menu menu)
     {
-        // Hides on-screen action items from the options menu.
         for (Integer id : mActionItemIds)
         {
             menu.findItem(id).setVisible(false);
@@ -153,7 +134,6 @@ public class ActionBarHelperBase extends ActionBarHelper
             return null;
         }
 
-        // Create the button
         ImageButton actionButton = new ImageButton(mActivity, null,
                 itemId == android.R.id.home
                         ? R.attr.actionbarCompatItemHomeStyle
@@ -183,8 +163,6 @@ public class ActionBarHelperBase extends ActionBarHelper
 
         if (item.getItemId() == R.id.menu_refresh)
         {
-            // Refresh buttons should be stateful, and allow for indeterminate progress indicators,
-            // so add those.
             ProgressBar indicator = new ProgressBar(mActivity, null,
                     R.attr.actionbarCompatProgressIndicatorStyle);
 

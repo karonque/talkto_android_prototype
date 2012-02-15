@@ -1,19 +1,3 @@
-/*
- * Copyright 2011 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package to.talk.prototype.compatibility.actionbar;
 
 import android.content.Intent;
@@ -122,178 +106,147 @@ public class SimpleMenuItem implements MenuItem
         return mEnabled;
     }
 
-    // No-op operations. We use no-ops to allow inflation from menu XML.
-
     public int getGroupId()
     {
-        // Noop
         return 0;
     }
 
     public View getActionView()
     {
-        // Noop
         return null;
     }
 
     public MenuItem setActionProvider(ActionProvider actionProvider)
     {
-        // Noop
         return this;
     }
 
     public ActionProvider getActionProvider()
     {
-        // Noop
         return null;
     }
 
     public boolean expandActionView()
     {
-        // Noop
         return false;
     }
 
     public boolean collapseActionView()
     {
-        // Noop
         return false;
     }
 
     public boolean isActionViewExpanded()
     {
-        // Noop
         return false;
     }
 
     public MenuItem setOnActionExpandListener(OnActionExpandListener onActionExpandListener)
     {
-        // Noop
         return this;
     }
 
     public MenuItem setIntent(Intent intent)
     {
-        // Noop
         return this;
     }
 
     public Intent getIntent()
     {
-        // Noop
         return null;
     }
 
     public MenuItem setShortcut(char c, char c1)
     {
-        // Noop
         return this;
     }
 
     public MenuItem setNumericShortcut(char c)
     {
-        // Noop
         return this;
     }
 
     public char getNumericShortcut()
     {
-        // Noop
         return 0;
     }
 
     public MenuItem setAlphabeticShortcut(char c)
     {
-        // Noop
         return this;
     }
 
     public char getAlphabeticShortcut()
     {
-        // Noop
         return 0;
     }
 
     public MenuItem setCheckable(boolean b)
     {
-        // Noop
         return this;
     }
 
     public boolean isCheckable()
     {
-        // Noop
         return false;
     }
 
     public MenuItem setChecked(boolean b)
     {
-        // Noop
         return this;
     }
 
     public boolean isChecked()
     {
-        // Noop
         return false;
     }
 
     public MenuItem setVisible(boolean b)
     {
-        // Noop
         return this;
     }
 
     public boolean isVisible()
     {
-        // Noop
         return true;
     }
 
     public boolean hasSubMenu()
     {
-        // Noop
         return false;
     }
 
     public SubMenu getSubMenu()
     {
-        // Noop
         return null;
     }
 
     public MenuItem setOnMenuItemClickListener(OnMenuItemClickListener onMenuItemClickListener)
     {
-        // Noop
         return this;
     }
 
     public ContextMenu.ContextMenuInfo getMenuInfo()
     {
-        // Noop
         return null;
     }
 
     public void setShowAsAction(int i)
     {
-        // Noop
     }
 
     public MenuItem setShowAsActionFlags(int i)
     {
-        // Noop
         return null;
     }
 
     public MenuItem setActionView(View view)
     {
-        // Noop
         return this;
     }
 
     public MenuItem setActionView(int i)
     {
-        // Noop
         return this;
     }
 }
