@@ -70,14 +70,14 @@ public class ContactsActivity extends ActionBarActivity implements TabHost.OnTab
         this.initialiseTabHost(savedInstanceState);
         if (savedInstanceState != null)
         {
-            mTabHost.setCurrentTabByTag(savedInstanceState.getString("tab"));
+            mTabHost.setCurrentTabByTag(savedInstanceState.getString("currentTab"));
         }
         this.initViewPager();
     }
 
     protected void onSaveInstanceState(Bundle outState)
     {
-        outState.putString("tab", mTabHost.getCurrentTabTag());
+        outState.putString("currentTab", mTabHost.getCurrentTabTag());
         super.onSaveInstanceState(outState);
     }
 
@@ -99,9 +99,9 @@ public class ContactsActivity extends ActionBarActivity implements TabHost.OnTab
         mTabHost = (TabHost) findViewById(android.R.id.tabhost);
         mTabHost.setup();
         TabInfo tabInfo = null;
-        ContactsActivity.AddTab(this, this.mTabHost, this.mTabHost.newTabSpec("Tab1").setIndicator("Tab 1"), (tabInfo = new TabInfo("Contacts", AllContactsFragment.class, args)));
+        ContactsActivity.AddTab(this, this.mTabHost, this.mTabHost.newTabSpec("activeChats").setIndicator("Active Chats"), (tabInfo = new TabInfo("Contacts", AllContactsFragment.class, args)));
         this.mapTabInfo.put(tabInfo.tag, tabInfo);
-        ContactsActivity.AddTab(this, this.mTabHost, this.mTabHost.newTabSpec("Tab2").setIndicator("Tab 2"), (tabInfo = new TabInfo("ActiveChats", ActiveChatsFragment.class, args)));
+        ContactsActivity.AddTab(this, this.mTabHost, this.mTabHost.newTabSpec("allContacts").setIndicator("All Contacts"), (tabInfo = new TabInfo("ActiveChats", ActiveChatsFragment.class, args)));
         this.mapTabInfo.put(tabInfo.tag, tabInfo);
 
         mTabHost.setOnTabChangedListener(this);
