@@ -2,7 +2,6 @@ package to.talk.prototype.activities;
 
 import android.app.ActionBar;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -20,10 +19,41 @@ public final class ContactsFragmentActivity extends ActionBarActivity
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+    }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        switch (item.getItemId())
+        {
+            case R.id.menu_accounts:
+                startActivity(AccountDetailActivity.class);
+            default:
+                return true;
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu)
+    {
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.action_bar_contacts, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    private void startActivity(Class clz)
+    {
+        Intent intent = new Intent(getApplicationContext(), clz);
+        startActivity(intent);
+        finish();
+    }
+
+    private void ICSTabImplementation()
+    {
+        /*
         final boolean ICS = Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH;
 
-        /*if (ICS)
+        if (ICS)
         {
             actionBar = getActionBar();
             actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
@@ -45,34 +75,7 @@ public final class ContactsFragmentActivity extends ActionBarActivity
         return tab;
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item)
-    {
-        switch (item.getItemId())
-        {
-            case R.id.menu_accounts:
-                startActivity(AccountDetailActivity.class);
-            default:
-                return true;
 
-        }
-    }
-
-    private void startActivity(Class clz)
-    {
-        Intent intent = new Intent(getApplicationContext(), clz);
-        startActivity(intent);
-        finish();
-    }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu)
-    {
-        MenuInflater menuInflater = getMenuInflater();
-        menuInflater.inflate(R.menu.action_bar_contacts, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
 }
 
 
