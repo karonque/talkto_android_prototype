@@ -1,11 +1,11 @@
 package to.talk.prototype.compatibility.actionbar;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 
-public abstract class ActionBarActivity extends Activity
+public abstract class ActionBarActivity extends FragmentActivity
 {
     final ActionBarHelper mActionBarHelper = ActionBarHelper.createInstance(this);
 
