@@ -16,14 +16,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dfe57ec-af7d-4c40-a4eb-821548c2b961" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/MainActivity.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarActivity.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelper.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperBase.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperHoneycomb.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperHoneycomb.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperICS.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperICS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/SimpleMenu.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/SimpleMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/SimpleMenuItem.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/SimpleMenuItem.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/TabsViewPagerFragmentActivity.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/RosterPagerFragmentActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragmentActivity.java" afterPath="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragmentActivity.java" />
     </list>
     <ignored path="talkto_android_prototype.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,70 +96,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TabsViewPagerFragmentActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/TabsViewPagerFragmentActivity.java">
+      <file leaf-file-name="RosterPagerFragmentActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/RosterPagerFragmentActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
+            <state line="17" column="20" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2221#2231#0" expanded="true" />
+                <element signature="e#2217#2227#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActionBarActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarActivity.java">
+      <file leaf-file-name="ContactsFragmentActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragmentActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="21" column="33" selection-start="618" selection-end="618" vertical-scroll-proportion="0.54058725">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#startActivity#0;class#ContactsFragmentActivity#0" expanded="false" />
+                <element signature="method#ICSTabImplementation#0;class#ContactsFragmentActivity#0" expanded="false" />
+                <element signature="method#createTab#0;class#ContactsFragmentActivity#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActionBarHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActionBarHelperBase.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="12" selection-start="5462" selection-end="5462" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActionBarHelperICS.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperICS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleMenu.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/SimpleMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="4" selection-start="3029" selection-end="3029" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleMenuItem.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/SimpleMenuItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="0" selection-start="2172" selection-end="2172" vertical-scroll-proportion="0.33333334">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -193,10 +146,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/PageAdapter.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/adapters/PagerAdapter.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/TabViewPagerFragmentActivity.java" />
-        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/TabsViewPagerFragmentActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragmentActivity.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/AllContactsFragment.java" />
@@ -209,6 +160,8 @@
         <option value="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/SimpleMenu.java" />
         <option value="$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/SimpleMenuItem.java" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/TabsViewPagerFragmentActivity.java" />
+        <option value="$PROJECT_DIR$/src/to/talk/prototype/activities/RosterPagerFragmentActivity.java" />
       </list>
     </option>
   </component>
@@ -705,18 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragmentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="62" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#startActivity#0;class#ContactsFragmentActivity#0" expanded="false" />
-            <element signature="method#ICSTabImplementation#0;class#ContactsFragmentActivity#0" expanded="false" />
-            <element signature="method#createTab#0;class#ContactsFragmentActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ActiveChatsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="71" selection-start="197" selection-end="197" vertical-scroll-proportion="-0.03626943">
@@ -733,20 +674,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AccountDetailActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperHoneycomb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="70" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/TabsViewPagerFragmentActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/SimpleMenuItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2221#2231#0" expanded="true" />
-          </folding>
+        <state line="108" column="0" selection-start="2172" selection-end="2172" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/SimpleMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="4" selection-start="3029" selection-end="3029" vertical-scroll-proportion="3.4946237">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperICS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="165" column="12" selection-start="5462" selection-end="5462" vertical-scroll-proportion="3.9637306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -759,45 +725,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/AccountDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="28" column="70" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperHoneycomb.java">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/RosterPagerFragmentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="17" column="20" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2217#2227#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperBase.java">
+    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/activities/ContactsFragmentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="12" selection-start="5462" selection-end="5462" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/ActionBarHelperICS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/SimpleMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="4" selection-start="3029" selection-end="3029" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/to/talk/prototype/compatibility/actionbar/SimpleMenuItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="0" selection-start="2172" selection-end="2172" vertical-scroll-proportion="0.33333334">
-          <folding />
+        <state line="21" column="33" selection-start="618" selection-end="618" vertical-scroll-proportion="0.54058725">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#startActivity#0;class#ContactsFragmentActivity#0" expanded="false" />
+            <element signature="method#ICSTabImplementation#0;class#ContactsFragmentActivity#0" expanded="false" />
+            <element signature="method#createTab#0;class#ContactsFragmentActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
