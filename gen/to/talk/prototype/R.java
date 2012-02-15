@@ -268,16 +268,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int contactAvatar=0x7f06000e;
         public static final int contactsList=0x7f060011;
         public static final int list_header_title=0x7f060012;
-        public static final int menu_accounts=0x7f060015;
-        public static final int menu_contacts=0x7f060014;
+        public static final int menu_accounts=0x7f060016;
+        public static final int menu_contacts=0x7f060015;
         public static final int menu_refresh=0x7f060004;
-        public static final int menu_search=0x7f060013;
+        public static final int menu_search=0x7f060014;
         public static final int name=0x7f06000b;
         public static final int name_presence=0x7f060009;
         public static final int presence=0x7f06000a;
         public static final int rosterEntrySpinner=0x7f060006;
         public static final int serviceType=0x7f060010;
         public static final int status=0x7f06000c;
+        public static final int viewpager=0x7f060013;
     }
     public static final class layout {
         public static final int account_item=0x7f030000;
@@ -289,6 +290,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int contacts_view=0x7f030006;
         public static final int list_view_header=0x7f030007;
         public static final int main=0x7f030008;
+        public static final int tabs_viewpager=0x7f030009;
     }
     public static final class menu {
         public static final int action_bar_accounts=0x7f090000;

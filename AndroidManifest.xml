@@ -16,6 +16,7 @@
         </activity>
         <activity android:name=".activities.AccountDetailActivity"  android:label="Accounts"/>
         <activity android:name=".activities.ContactsFragmentActivity"  android:label="Contacts"/>
+        <activity android:name=".activities.TabsViewPagerFragmentActivity"  android:label="Contacts"/>
 
     </application>
 </manifest> 

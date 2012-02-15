@@ -19,6 +19,7 @@ public final class ContactsFragmentActivity extends ActionBarActivity
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+        startActivity(TabsViewPagerFragmentActivity.class);
     }
 
     @Override
