@@ -16,5 +16,4 @@ bin/
 *.apk
 *.log
 *~
-coverage-report/
 
