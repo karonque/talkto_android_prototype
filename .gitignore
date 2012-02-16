@@ -16,4 +16,5 @@ bin/
 *.apk
 *.log
 *~
+.idea/
 
