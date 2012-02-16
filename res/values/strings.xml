@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Talk.to</string>
+    <string name="app_name">Talk.to (Prototype)</string>
 
     <string name="service_pingpong">Pingpong</string>
     <string name="service_gtalk">Google Talk</string>
